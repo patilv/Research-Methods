@@ -52,6 +52,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - vendor
   - "*.pptx"
   - "*.pdf"
   - Survey-Design-Ref
