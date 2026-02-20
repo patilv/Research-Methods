@@ -1,0 +1,39 @@
+---
+layout: default
+title: Modules
+permalink: /modules/
+---
+
+<section class="hero">
+  <div class="hero-container">
+    <span class="hero-eyebrow">Course Content</span>
+    <h1 class="hero-title">All Modules</h1>
+    <p class="hero-subtitle">Eight modules spanning the full research process&mdash;from strategic problem formulation to data analysis and professional reporting.</p>
+  </div>
+</section>
+
+<section class="modules-listing">
+  <div class="modules-listing-container">
+    <div class="modules-grid">
+
+      {% assign sorted_modules = site.modules | sort: "module_number" %}
+      {% for mod in sorted_modules %}
+      <a href="{{ mod.url | relative_url }}" class="module-card">
+        <span class="module-card-week">Week {{ mod.module_number }}</span>
+        <h3 class="module-card-title">{{ mod.title }}</h3>
+        {% if mod.subtitle %}
+        <p class="module-card-description">{{ mod.subtitle }}</p>
+        {% endif %}
+        {% if mod.learning_objectives %}
+        <ul class="module-card-objectives">
+          {% for obj in mod.learning_objectives limit:3 %}
+          <li>{{ obj }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </a>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>

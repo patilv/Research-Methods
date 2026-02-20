@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <nav class="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="{{ '/' | relative_url }}" class="nav-logo" aria-label="Home">
+        <span class="nav-logo-mark">RM</span>
+        <span class="nav-logo-text">Strategic Business Research Methods</span>
+      </a>
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/modules/' | relative_url }}">Modules</a>
+        <a href="{{ '/syllabus/' | relative_url }}">Syllabus</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content" role="main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Strategic Business Research Methods</h3>
+        <p>A comprehensive graduate course in evidence-based business research, designed for MBA and MSBA students.</p>
+        <p class="footer-course-info">8 Weeks &middot; 2 Credits &middot; Asynchronous</p>
+      </div>
+      <div class="footer-section">
+        <h3>Instructor</h3>
+        <p>{{ site.author }}</p>
+        <p>{{ site.school }}</p>
+        <p>{{ site.institution }}</p>
+        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      </div>
+      <div class="footer-section">
+        <h3>Jesuit Values</h3>
+        <p>Grounded in the Jesuit tradition of rigorous intellectual inquiry, ethical leadership, and <em>cura personalis</em>&mdash;care for the whole person.</p>
+        <p class="footer-motto"><em>Ad Majorem Dei Gloriam</em></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}, {{ site.institution }}. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

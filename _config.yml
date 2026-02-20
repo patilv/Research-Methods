@@ -1,0 +1,60 @@
+# Site Settings
+title: "Strategic Business Research Methods"
+subtitle: "Evidence-Based Decision Making for the Modern Business Leader"
+author: "Vivek H. Patil, Ph.D."
+institution: "Gonzaga University"
+school: "School of Business Administration"
+email: "patil@gonzaga.edu"
+description: >-
+  A comprehensive, world-class graduate course in business research methods.
+  Designed for MBA and MSBA students at Gonzaga University, this course bridges
+  rigorous methodology with strategic business application, grounded in
+  Jesuit values of ethical inquiry and care for the whole person.
+
+# Build Settings
+baseurl: "/Research-Methods"
+url: "https://patilv.com"
+permalink: /:categories/:title/
+
+# Markdown Processing
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+  auto_ids: true
+
+# Collections
+collections:
+  modules:
+    output: true
+    permalink: /modules/:name/
+
+# Defaults
+defaults:
+  - scope:
+      type: "modules"
+    values:
+      layout: "module"
+  - scope:
+      type: "pages"
+    values:
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - "*.pptx"
+  - "*.pdf"
+  - Survey-Design-Ref
+  - IMPLEMENTATION_GUIDE.md
+  - package.json
+  - tailwind.config.js
