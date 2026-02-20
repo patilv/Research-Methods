@@ -1,0 +1,5 @@
+# PowerPoint source files
+*.pptx
+
+# Claude Code
+.claude/
