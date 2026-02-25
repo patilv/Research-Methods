@@ -61,6 +61,53 @@ The second broad category involves **unwillingness to respond accurately**, even
 <p><em>Source: Hawkins, D. I. & Coney, K. A. (1981). Uninformed Response Error in Survey Research. Journal of Marketing Research, 18(August), 370–374.</em></p>
 </div>
 
+<div class="activity-quiz" data-activity-id="m6-quiz-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge quiz">Knowledge Check</span>
+    <h3>Identify the Error</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="quiz-question" data-correct="a">
+      <p>A company emails a customer satisfaction survey to all 5,000 customers. Only 400 respond, and these tend to be customers who either had an extremely positive or extremely negative experience. The company reports the results as representing "the voice of the customer." What type of error is most evident here?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Non-response error</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Social desirability bias</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Acquiescence bias</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Recall error</span></div>
+      </div>
+      <div class="feedback-correct">Correct. With only 400 out of 5,000 customers responding (an 8% response rate), and those respondents skewing toward extreme experiences, this is a clear case of non-response error. The 4,600 non-respondents likely hold moderate opinions that are systematically missing from the data, making the results unrepresentative of the full customer base.</div>
+      <div class="feedback-incorrect">The correct answer is A, non-response error. When 92% of the sample does not respond, and the respondents differ systematically from non-respondents (in this case, skewing toward extreme experiences), the resulting data do not represent the population. This is non-response error -- not just a smaller sample, but a biased one.</div>
+    </div>
+    <div class="quiz-question" data-correct="d">
+      <p>A health survey asks respondents: "How many alcoholic drinks did you consume in the past 30 days?" Many respondents significantly underreport their consumption compared to actual sales data for their demographic. Which source of inaccuracy best explains this pattern?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Non-response error</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Acquiescence bias</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Recall error</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Social desirability bias</span></div>
+      </div>
+      <div class="feedback-correct">Correct. Social desirability bias is the tendency to present oneself in a favorable light. Respondents underreport socially disapproved behaviors like alcohol consumption and overreport socially approved behaviors. While recall error could also play a minor role, the systematic direction of the inaccuracy (always underreporting, not random error) points to social desirability as the primary source.</div>
+      <div class="feedback-incorrect">The correct answer is D, social desirability bias. The key clue is that respondents systematically underreport rather than randomly misremember. Social desirability bias leads people to understate socially disapproved behaviors (like excessive drinking) and overstate approved ones. The consistent direction of the error -- always lower, never higher -- distinguishes this from recall error, which would produce errors in both directions.</div>
+    </div>
+    <div class="quiz-question" data-correct="c">
+      <p>A researcher administers a long survey with 40 agree/disagree statements. She notices that several respondents selected "Agree" for nearly every statement, including pairs of statements that logically contradict each other. What type of bias is this?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Non-response error</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Social desirability bias</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Acquiescence bias</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Recall error</span></div>
+      </div>
+      <div class="feedback-correct">Correct. Acquiescence bias is a general tendency to agree with statements regardless of their content. The telltale sign here is that respondents agreed with contradictory statements, which reveals that they were defaulting to agreement rather than carefully evaluating each statement on its merits. This is especially common with long surveys that use agree/disagree formats.</div>
+      <div class="feedback-incorrect">The correct answer is C, acquiescence bias. This is the tendency to agree with statements regardless of content. The critical evidence is that respondents agreed with statements that contradict each other, which is logically impossible if they were carefully reading and evaluating each item. Acquiescence bias is particularly common in lengthy surveys with agree/disagree formats where respondent fatigue sets in.</div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-check-answer">Check Answer</button>
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 6.3 Survey Administration Modes
 
 The choice of administration mode affects sampling, information quality, cost, speed, and response rates. Each mode has distinct advantages and limitations (adapted from Churchill & Iacobucci, 2002):
@@ -126,6 +173,38 @@ An important subtlety: a variable has an **intrinsic** measurement level (its tr
 
 However, you **cannot** measure at a higher level than the intrinsic level. Gender is intrinsically nominal -- assigning numbers (Male = 1, Female = 0) does not make it interval or ratio, even though statistical software will happily compute a "mean" of such codes. The researcher must be vigilant about this.
 
+<div class="activity-match" data-activity-id="m6-match-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge match">Match Pairs</span>
+    <h3>Measurement Levels</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>Click an item on the left, then click its match on the right.</p>
+    <div class="match-container">
+      <div class="match-left">
+        <div class="match-column-label">Variable</div>
+        <div class="match-item" data-match-id="l1" data-match-target="r1">ZIP code</div>
+        <div class="match-item" data-match-id="l2" data-match-target="r2">Education level (high school, bachelor's, master's, doctorate)</div>
+        <div class="match-item" data-match-id="l3" data-match-target="r3">Temperature in Fahrenheit</div>
+        <div class="match-item" data-match-id="l4" data-match-target="r4">Annual income in dollars</div>
+        <div class="match-item" data-match-id="l5" data-match-target="r5">Customer satisfaction rank (1st, 2nd, 3rd among competitors)</div>
+      </div>
+      <div class="match-right">
+        <div class="match-column-label">Measurement Level</div>
+        <div class="match-item" data-match-id="r1">Nominal -- numbers serve only as labels for geographic areas with no mathematical meaning</div>
+        <div class="match-item" data-match-id="r2">Ordinal -- categories have a meaningful order but the gaps between levels are not equal</div>
+        <div class="match-item" data-match-id="r3">Interval -- equal distances between degrees but no true zero (0 degrees F does not mean no temperature)</div>
+        <div class="match-item" data-match-id="r4">Ratio -- has a true zero point ($0 means no income) and ratios are meaningful</div>
+        <div class="match-item" data-match-id="r5">Ordinal -- we know the order but not the magnitude of the differences between ranks</div>
+      </div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 6.5 Attitude Measurement Scales
 
 Attitudes -- predispositions to respond favorably or unfavorably to objects, ideas, or people -- are central to much business research. Several scaling approaches are commonly used:
@@ -172,6 +251,26 @@ Research by Rockwood, Sangster, and Dillman (1997) demonstrated that the range o
 - **High categories** (Less than 2.5 / 2.5–3 / 3–3.5 / 3.5–4 / 4–4.5 / More than 4.5 hours): 69% reported studying 2.5+ hours
 
 The categories served as an implicit frame of reference, signaling to respondents what was "normal." This finding has profound implications: **the design of the response scale can create the very data it purports to measure.**
+
+<div class="activity-scenario" data-activity-id="m6-scenario-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge scenario">Scenario</span>
+    <h3>Fix This Question</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="scenario-prompt">You are reviewing a draft customer satisfaction survey for a restaurant chain. One of the questions reads: "Don't you agree that our friendly staff and delicious food make dining here a wonderful experience?" Your supervisor asks you to identify the problems and select the best revision.</div>
+    <p class="scenario-question">Which revision best fixes the problems with this question?</p>
+    <div class="scenario-options">
+      <div class="scenario-option" data-correct="false"><span>"Our staff is friendly and our food is delicious. Do you agree? (Yes / No)"</span><div class="scenario-feedback">This revision still contains two major problems. First, it is double-barreled because it asks about both staff friendliness and food quality in one question -- a respondent who found the staff friendly but the food mediocre cannot answer accurately. Second, the phrasing "Our staff is friendly and our food is delicious" is still leading because it states the positive qualities as facts before asking for agreement.</div></div>
+      <div class="scenario-option" data-correct="false"><span>"How would you rate the wonderful experience of dining at our restaurant? (Poor / Fair / Good / Excellent)"</span><div class="scenario-feedback">This revision still uses leading language by describing the experience as "wonderful" before asking the respondent to rate it. The word "wonderful" presupposes a positive experience and pushes respondents toward favorable ratings. A neutral question should not embed a positive or negative judgment in the question stem.</div></div>
+      <div class="scenario-option" data-correct="true"><span>Split into two separate questions: "How would you rate the friendliness of our staff? (1-Very Poor to 5-Excellent)" and "How would you rate the quality of our food? (1-Very Poor to 5-Excellent)"</span><div class="scenario-feedback">Correct. This revision fixes both problems in the original question. It eliminates the double-barreled structure by splitting staff friendliness and food quality into two separate items, allowing respondents to rate each independently. It also removes the leading language by using neutral phrasing and balanced response scales that allow for both positive and negative evaluations.</div></div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
 
 ## 6.7 Measurement Accuracy: Validity and Reliability
 
@@ -235,6 +334,53 @@ Order effects -- the influence that the sequence of response options exerts on r
 
 Finally, the researcher must decide whether to include "Don't Know" or "No Opinion" options. Including them respects the reality that not every respondent has a formed opinion on every topic and prevents uninformed respondents from fabricating answers that pollute the data. However, omitting these options forces respondents to engage with the question and may surface latent attitudes that would otherwise go unexpressed. The decision depends on the research context: for topics where uninformed responses are a significant risk, including a "Don't Know" option is generally advisable; for topics where nearly all respondents can be expected to have opinions, the option may be unnecessary and could simply attract satisficers seeking an easy way out.
 
+<div class="activity-quiz" data-activity-id="m6-quiz-2" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge quiz">Knowledge Check</span>
+    <h3>Questionnaire Design Principles</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="quiz-question" data-correct="b">
+      <p>A survey asks: "How often do you visit a fast-food restaurant?" with response options of "Occasionally," "Sometimes," and "Often." What is the primary problem with this question?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>The question is double-barreled because it asks about multiple types of restaurants</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>The response options use vague frequency terms that mean different things to different respondents</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>The question is leading because it assumes the respondent visits fast-food restaurants</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>The question has too few response categories to capture meaningful variation</span></div>
+      </div>
+      <div class="feedback-correct">Correct. Words like "occasionally," "sometimes," and "often" are subjective and unstable -- "often" might mean once a week to one respondent and once a day to another. The fix is to replace these vague terms with concrete behavioral anchors such as "Never," "1-2 times per month," "Once a week," "2-3 times per week," or "Daily or more."</div>
+      <div class="feedback-incorrect">The correct answer is B. The primary problem is that the response options use vague frequency adverbs that different respondents interpret differently. "Often" could mean daily to one person and weekly to another. Best practice is to replace subjective frequency terms with specific, concrete anchors (e.g., "1-2 times per month," "Once a week") that mean the same thing to every respondent.</div>
+    </div>
+    <div class="quiz-question" data-correct="c">
+      <p>A researcher designs income categories as: "$0-$30,000 / $30,000-$60,000 / $60,000-$90,000 / $90,000+". What principle of response category design does this violate?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Exhaustiveness -- the categories do not cover all possible answers</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Balance -- there are more low-income categories than high-income categories</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Mutual exclusivity -- the boundary values overlap, so someone earning exactly $30,000 or $60,000 could fit into two categories</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Sensitivity -- the categories are too broad to detect meaningful differences</span></div>
+      </div>
+      <div class="feedback-correct">Correct. The categories overlap at $30,000, $60,000, and $90,000. A respondent earning exactly $30,000 could select either the first or second category. Mutual exclusivity requires that each response fit into one and only one category. The fix is to use non-overlapping ranges such as "$0-$29,999 / $30,000-$59,999 / $60,000-$89,999 / $90,000+".</div>
+      <div class="feedback-incorrect">The correct answer is C, mutual exclusivity. The boundary values $30,000 and $60,000 each appear in two adjacent categories, creating overlap. A respondent earning exactly $30,000 has no clear way to answer. Response categories must be mutually exclusive so that every possible answer falls into one and only one option.</div>
+    </div>
+    <div class="quiz-question" data-correct="a">
+      <p>Which of the following is an example of a double-barreled question?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>"Are you satisfied with the price and the quality of our products?"</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>"On a scale of 1 to 5, how satisfied are you with the price of our products?"</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>"Most customers love our products. How satisfied are you?"</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>"How satisfied are you with our products? (Very Dissatisfied to Very Satisfied)"</span></div>
+      </div>
+      <div class="feedback-correct">Correct. This question asks about two separate things -- price satisfaction and quality satisfaction -- in a single question. A respondent who is satisfied with quality but dissatisfied with price cannot answer accurately. The fix is to split it into two separate questions, one addressing price and one addressing quality.</div>
+      <div class="feedback-incorrect">The correct answer is A. A double-barreled question asks about two different things in one question, making it impossible to know which part the respondent is answering. "Are you satisfied with the price and the quality" combines two distinct evaluations. Option C is a leading question (not double-barreled), while B and D are properly constructed single-topic questions.</div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-check-answer">Check Answer</button>
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 6.9 Pretesting
 
 Before fielding a survey, **pretesting** is essential. Pretesting involves administering the questionnaire to a small sample under conditions similar to the actual study, with the goal of identifying problems before they contaminate the full data collection.
@@ -252,6 +398,68 @@ The results of pretesting should be taken seriously and acted upon, even when th
 <div class="callout callout-jesuit">
 <p class="callout-title">Jesuit Perspective</p>
 <p>The meticulous attention to questionnaire design—ensuring questions are clear, fair, unbiased, and respectful of respondents' time and intelligence—is an expression of <em>cura personalis</em> in research practice. Every poorly worded, leading, or confusing question represents a failure to respect the participant. Every well-crafted question represents an act of care. The Jesuit insistence on doing things well—<em>magis</em>—demands that we invest the effort to get measurement right.</p>
+</div>
+
+<div class="activity-flashcards" data-activity-id="m6-flash-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge flashcards">Flashcards</span>
+    <h3>Key Terms</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="flashcard-deck">
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Likert Scale</div>
+          <div class="flashcard-back">A rating scale in which respondents indicate their level of agreement with a series of statements, typically on a 5- or 7-point scale ranging from "Strongly Disagree" to "Strongly Agree." Named after psychologist Rensis Likert, it is one of the most widely used attitude measurement instruments in business research.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Semantic Differential Scale</div>
+          <div class="flashcard-back">A rating scale in which respondents rate an object on a series of bipolar adjective pairs (e.g., "Not Trustworthy -- Trustworthy" or "Unreliable -- Reliable"), typically on a 7-point scale. It measures the meaning that concepts hold for respondents across evaluative, potency, and activity dimensions.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Validity</div>
+          <div class="flashcard-back">The extent to which a measure actually measures what it is supposed to measure. Types include face validity (does it appear to measure the concept?), content validity (does it cover the full domain?), criterion validity (does it predict a known outcome?), and construct validity (does it relate to other measures as theory predicts?).</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Reliability</div>
+          <div class="flashcard-back">The extent to which a measure produces consistent results across repeated administrations, different observers, or equivalent forms. Reliability is necessary but not sufficient for validity -- a measure can be consistently wrong. A reliable scale yields the same score when the underlying construct has not changed.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Non-response Error</div>
+          <div class="flashcard-back">A type of survey error that occurs when those who do not respond to a survey differ systematically from those who do respond. This is not merely a matter of having a smaller sample; the concern is that non-respondents may hold different attitudes or characteristics, introducing a bias that no amount of statistical adjustment can fully correct.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Social Desirability Bias</div>
+          <div class="flashcard-back">The tendency for survey respondents to present themselves in a favorable light by overstating socially approved behaviors (such as exercise, voting, or recycling) and understating socially disapproved ones (such as alcohol consumption, prejudice, or unethical practices). It is one of the most pervasive sources of response inaccuracy in survey research.</div>
+        </div>
+      </div>
+    </div>
+    <p class="flashcard-hint">Click the card to flip it</p>
+    <div class="flashcard-nav">
+      <button class="fc-prev">Previous</button>
+      <span class="fc-counter">1 / 6</span>
+      <button class="fc-next">Next</button>
+      <button class="fc-got-it">Got It!</button>
+    </div>
+    <div class="fc-progress-info">Mastered: <span class="fc-mastered-count">0</span> / 6</div>
+  </div>
+  <div class="activity-footer"></div>
+</div>
+
+<div class="callout callout-key-concept">
+<p class="callout-title">Canvas Submission</p>
+<p>Complete all five interactive activities in this module and submit your Progress Report in Canvas. This week includes the <strong>Questionnaire Design with Justification Memo</strong>: draft a survey instrument for your research proposal and write a memo justifying your design choices. Submit in Canvas. You will also complete a <strong>Peer Review</strong> of two classmates' questionnaire drafts via Canvas Peer Review.</p>
 </div>
 
 ---

@@ -90,6 +90,53 @@ Longitudinal designs can be further divided into two subtypes. **True panels** s
 
 Longitudinal designs are powerful for studying change over time but are more expensive and subject to **panel attrition** (participants dropping out over time). Attrition is not merely a logistical inconvenience; it can introduce systematic bias if the people who drop out differ in meaningful ways from those who remain. For example, if less satisfied customers are more likely to leave a panel, the remaining sample will overrepresent satisfied customers, producing an overly optimistic picture of customer sentiment. Researchers must monitor attrition carefully and, where possible, compare the characteristics of those who remain with those who leave.
 
+<div class="activity-quiz" data-activity-id="m3-quiz-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge quiz">Knowledge Check</span>
+    <h3>Research Design Types</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="quiz-question" data-correct="a">
+      <p>A new coffee chain wants to enter the Pacific Northwest market but knows very little about local consumer preferences. The marketing team decides to conduct in-depth interviews with coffee drinkers in the region. What type of research design is this?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Exploratory</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Descriptive</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Causal</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Longitudinal</span></div>
+      </div>
+      <div class="feedback-correct">Correct. When a researcher has limited knowledge about a problem and uses flexible, qualitative methods like in-depth interviews to build understanding, this is exploratory research. The goal here is to generate insights and hypotheses, not to measure or test them.</div>
+      <div class="feedback-incorrect">Not quite. Because the company knows very little about local preferences and is using unstructured qualitative methods (in-depth interviews) to build initial understanding, this is exploratory research. Exploratory designs are used when the problem is poorly understood and the researcher needs flexibility to follow the evidence.</div>
+    </div>
+    <div class="quiz-question" data-correct="b">
+      <p>A retail bank surveys 2,000 customers to determine what percentage use mobile banking at least once per week, broken down by age group and income level. What type of research design is this?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Exploratory</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Descriptive</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Causal</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Qualitative</span></div>
+      </div>
+      <div class="feedback-correct">Correct. This is descriptive research because the goal is to quantify the characteristics of a population -- specifically, to estimate proportions (percentage using mobile banking) across defined groups (age, income). Descriptive research answers "who, what, when, where, and how" with precision.</div>
+      <div class="feedback-incorrect">Not quite. The study uses a large structured survey to estimate proportions and describe characteristics of defined groups. This is descriptive research. It answers "what percentage" and "how does usage vary" -- classic descriptive questions that require structured, quantitative methods.</div>
+    </div>
+    <div class="quiz-question" data-correct="c">
+      <p>An e-commerce company randomly assigns visitors to see either a green or orange "Buy Now" button and measures which color produces more purchases. What type of research design is this?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Exploratory</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Descriptive</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Causal</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Cross-sectional</span></div>
+      </div>
+      <div class="feedback-correct">Correct. This is causal research (specifically, an A/B test, which is a form of field experiment). The company manipulates an independent variable (button color), uses random assignment, and measures the effect on a dependent variable (purchases). This design allows the company to conclude whether button color causes a difference in purchasing behavior.</div>
+      <div class="feedback-incorrect">Not quite. Because the company is manipulating a variable (button color), using random assignment, and measuring the effect on purchases, this is causal research. Specifically, it is an A/B test -- a field experiment designed to establish whether one variable causes a change in another.</div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-check-answer">Check Answer</button>
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 3.4 Causal Research
 
 **Causal research** seeks to identify cause-and-effect relationships. When a manager asks, "Will changing X lead to a change in Y?"---that is a causal question. Causal research typically involves **experiments**.
@@ -131,6 +178,40 @@ While Sherlock Holmes may overstate the ease of elimination, the principle is so
 
 Researchers have developed a range of strategies to mitigate these threats, and the choice of mitigation strategy depends on the specific threat and the research context. Random assignment of participants to experimental and control groups is the single most powerful tool for addressing selection bias, because it ensures that any pre-existing differences between groups are distributed randomly rather than systematically. Control groups serve as a baseline against which the treatment effect can be measured, helping to account for the effects of history, maturation, and testing. When a pretest is necessary but testing effects are a concern, researchers may use a Solomon four-group design, which includes groups that receive the pretest and groups that do not, allowing the researcher to estimate and adjust for the effect of the pretest itself. Standardization of procedures and instruments throughout the study guards against instrumentation threats, while keeping the study duration as short as practical can reduce the impact of both maturation and history. To combat attrition, researchers may offer incentives for continued participation, maintain regular contact with participants, and conduct statistical analyses comparing the characteristics of those who complete the study with those who drop out. No single strategy eliminates all threats, but a well-designed experiment anticipates the most likely threats and incorporates appropriate safeguards.
 
+<div class="activity-match" data-activity-id="m3-match-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge match">Match Pairs</span>
+    <h3>Threats to Internal Validity</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>Click an item on the left, then click its match on the right.</p>
+    <div class="match-container">
+      <div class="match-left">
+        <div class="match-column-label">Threat</div>
+        <div class="match-item" data-match-id="l1" data-match-target="r1">History</div>
+        <div class="match-item" data-match-id="l2" data-match-target="r2">Maturation</div>
+        <div class="match-item" data-match-id="l3" data-match-target="r3">Testing</div>
+        <div class="match-item" data-match-id="l4" data-match-target="r4">Instrumentation</div>
+        <div class="match-item" data-match-id="l5" data-match-target="r5">Selection</div>
+        <div class="match-item" data-match-id="l6" data-match-target="r6">Mortality</div>
+      </div>
+      <div class="match-right">
+        <div class="match-column-label">Example</div>
+        <div class="match-item" data-match-id="r4">Midway through a study, the survey platform updates its interface, changing how respondents interact with questions</div>
+        <div class="match-item" data-match-id="r1">A major economic recession begins during a year-long advertising effectiveness study, depressing sales regardless of the ad campaign</div>
+        <div class="match-item" data-match-id="r6">Dissatisfied employees leave the company before a workplace wellness program evaluation is completed, making results look more positive</div>
+        <div class="match-item" data-match-id="r3">Participants who completed a pre-survey about nutrition knowledge become more attentive to healthy eating messages during the experiment</div>
+        <div class="match-item" data-match-id="r5">Employees who volunteer for a new training program are already more motivated than those who do not volunteer</div>
+        <div class="match-item" data-match-id="r2">Over a six-month study, new sales hires naturally improve their skills through daily practice, independent of any training intervention</div>
+      </div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 3.6 External Validity
 
 While internal validity asks "Did X really cause Y in this study?", **external validity** asks "Can we generalize these findings to other settings, populations, and times?" A study can have strong internal validity but limited external validity---and vice versa.
@@ -163,6 +244,26 @@ In practice, the strongest research programs often employ both approaches in seq
 <div class="callout callout-example">
 <p class="callout-title">Example: A/B Testing as Field Experimentation</p>
 <p>Modern digital marketing has made field experimentation accessible and affordable. <strong>A/B testing</strong>---randomly assigning website visitors to different versions of a page---is a form of field experiment. It takes place in a natural setting (the user's normal browsing), uses random assignment (providing internal validity), and measures real behavior (providing external validity). The rise of A/B testing illustrates how technology has shifted the balance, making it possible to achieve both internal and external validity simultaneously in certain contexts.</p>
+</div>
+
+<div class="activity-scenario" data-activity-id="m3-scenario-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge scenario">Scenario</span>
+    <h3>Lab or Field Experiment?</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="scenario-prompt">A national grocery chain wants to test whether repositioning organic produce to the front of the store increases organic sales. The VP of Operations needs evidence strong enough to justify a costly store-wide redesign across 400 locations. The company has the budget to run a pilot in a subset of real stores over three months.</div>
+    <p class="scenario-question">Which experimental approach is most appropriate for this situation?</p>
+    <div class="scenario-options">
+      <div class="scenario-option" data-correct="false"><span>Run a laboratory experiment with simulated store layouts shown to consumers on a screen, measuring stated purchase intentions for organic produce.</span><div class="scenario-feedback">A lab experiment would offer tight control, but the findings would have limited external validity. Stated purchase intentions in front of a screen do not reliably predict actual purchasing behavior in a real store. Because the VP needs evidence strong enough to justify a costly real-world rollout, the study must demonstrate that the effect holds under real shopping conditions.</div></div>
+      <div class="scenario-option" data-correct="true"><span>Run a field experiment by randomly selecting a subset of stores to implement the new layout while keeping the rest as controls, then compare actual organic sales data between the two groups over three months.</span><div class="scenario-feedback">Correct. A field experiment is the best choice here because the decision at stake is large and irreversible, and the company needs evidence that the effect holds in real stores with real customers making real purchases. Random assignment of stores to treatment and control groups provides internal validity, while the natural retail setting provides the external validity needed to justify a chain-wide rollout. The company also has the budget and timeline to support this approach.</div></div>
+      <div class="scenario-option" data-correct="false"><span>Skip experimentation entirely and use a descriptive survey asking customers whether they would buy more organic produce if it were positioned at the front of the store.</span><div class="scenario-feedback">A survey measures stated preferences, not actual behavior. Customers may say they would buy more organic produce but behave differently in practice. For a decision of this magnitude -- redesigning 400 stores -- the company needs causal evidence from an experiment demonstrating that the layout change actually increases sales, not just that customers say it would.</div></div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
 </div>
 
 ## 3.8 Matching Designs to Data Collection Methods
@@ -203,6 +304,36 @@ Neither approach is inherently superior. The choice depends on the research ques
 <p>The Jesuit intellectual tradition values both depth and rigor---understanding the particular (qualitative) and the general (quantitative). <em>Discernment</em>, a cornerstone of Ignatian spirituality, involves careful reflection on evidence from multiple sources before making a decision. In research design, discernment manifests as the thoughtful selection of methods that are genuinely appropriate for the question at hand, rather than defaulting to familiar techniques. The best researchers, like the best leaders, match their tools to the task.</p>
 </div>
 
+<div class="activity-match" data-activity-id="m3-match-2" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge match">Match Pairs</span>
+    <h3>Data Collection Methods and Research Designs</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>Click an item on the left, then click its match on the right.</p>
+    <div class="match-container">
+      <div class="match-left">
+        <div class="match-column-label">Data Collection Method</div>
+        <div class="match-item" data-match-id="l1" data-match-target="r1">Secondary data analysis</div>
+        <div class="match-item" data-match-id="l2" data-match-target="r2">Qualitative research (interviews, focus groups)</div>
+        <div class="match-item" data-match-id="l3" data-match-target="r3">Surveys and structured observation</div>
+        <div class="match-item" data-match-id="l4" data-match-target="r4">Experiments</div>
+      </div>
+      <div class="match-right">
+        <div class="match-column-label">Most Appropriate Design Type</div>
+        <div class="match-item" data-match-id="r3">Descriptive research</div>
+        <div class="match-item" data-match-id="r1">Exploratory research</div>
+        <div class="match-item" data-match-id="r4">Causal research</div>
+        <div class="match-item" data-match-id="r2">Exploratory research</div>
+      </div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 3.10 Choosing the Right Design: A Decision Framework
 
 Selecting the appropriate research design is one of the most consequential decisions a researcher makes, because the design determines what kinds of conclusions the study can support. A poorly chosen design can waste resources, produce misleading findings, or fail to answer the question that motivated the research in the first place. While there is no mechanical formula that produces the "right" design in every situation, a series of diagnostic questions can guide the researcher toward an informed choice.
@@ -218,6 +349,68 @@ The fourth question involves resource constraints. Research designs vary enormou
 The fifth and final consideration is the stakes involved in the decision that the research will inform. When the stakes are high---when the decision is expensive, difficult to reverse, or has significant consequences for employees, customers, or the organization---the investment in causal research is justified, because the cost of acting on a wrong conclusion is substantial. When the stakes are lower, or when the decision is easily reversible, descriptive research may provide sufficient evidence to move forward. A company deciding whether to invest millions in a new product line should insist on causal evidence from controlled experiments. A company deciding which of two email subject lines to use for next week's newsletter may find a simple A/B test, or even a descriptive analysis of past open rates, perfectly adequate. The key is to match the rigor of the research to the magnitude and irreversibility of the decision it will inform.
 
 ---
+
+<div class="activity-flashcards" data-activity-id="m3-flash-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge flashcards">Flashcards</span>
+    <h3>Key Terms: Research Design</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="flashcard-deck">
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Exploratory Research</div>
+          <div class="flashcard-back">Research conducted when the problem is poorly understood, using flexible and unstructured methods (such as interviews, focus groups, and secondary data review) to generate insights, clarify concepts, and develop hypotheses for further investigation.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Descriptive Research</div>
+          <div class="flashcard-back">Research designed to describe the characteristics of a population or phenomenon with precision, answering questions of who, what, when, where, and how. It uses structured methods such as surveys and produces quantifiable results that can be generalized to larger populations.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Causal Research</div>
+          <div class="flashcard-back">Research that seeks to identify cause-and-effect relationships, typically through experiments. It requires establishing concomitant variation, temporal antecedence, and the elimination of alternative explanations to support a causal claim.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Internal Validity</div>
+          <div class="flashcard-back">The degree to which the observed results of an experiment can be attributed to the experimental treatment (the independent variable) rather than to other extraneous factors. Threats include history, maturation, testing, instrumentation, selection, and mortality.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">External Validity</div>
+          <div class="flashcard-back">The degree to which the findings of a study can be generalized to other settings, populations, and times beyond the specific conditions of the study. Field experiments typically have higher external validity than laboratory experiments.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Concomitant Variation</div>
+          <div class="flashcard-back">One of the three requirements for establishing causation. It means that the presumed cause (X) and the presumed effect (Y) must occur together or vary together in the way predicted by the hypothesis. Correlation alone, however, is not sufficient to prove causation.</div>
+        </div>
+      </div>
+    </div>
+    <p class="flashcard-hint">Click the card to flip it</p>
+    <div class="flashcard-nav">
+      <button class="fc-prev">Previous</button>
+      <span class="fc-counter">1 / 6</span>
+      <button class="fc-next">Next</button>
+      <button class="fc-got-it">Got It!</button>
+    </div>
+    <div class="fc-progress-info">Mastered: <span class="fc-mastered-count">0</span> / 6</div>
+  </div>
+  <div class="activity-footer"></div>
+</div>
+
+<div class="callout callout-key-concept">
+<p class="callout-title">Canvas Submission</p>
+<p>Complete all five interactive activities in this module and submit your Progress Report in Canvas. This week, submit <strong>Research Proposal Milestone 1: Topic and Problem Statement</strong> in Canvas. Identify a real business problem, formulate it as a research question, and draft your initial problem statement with supporting context.</p>
+</div>
 
 ## Recommended Resources
 

@@ -1,0 +1,871 @@
+---
+layout: default
+title: My Progress
+permalink: /progress/
+---
+
+<section class="hero">
+  <div class="hero-container">
+    <span class="hero-eyebrow">Student Dashboard</span>
+    <h1 class="hero-title">My Progress</h1>
+    <p class="hero-subtitle">Complete the interactive activities in each module, then generate your progress report here to submit in Canvas.</p>
+  </div>
+</section>
+
+<div class="progress-dashboard" id="progress-dashboard">
+
+  <!-- Student Name & Controls -->
+  <div class="dashboard-controls" id="dashboard-controls">
+    <div class="name-input-group">
+      <label for="student-name" class="name-label">Your Name</label>
+      <input type="text" id="student-name" class="name-input" placeholder="Enter your full name for the report" />
+    </div>
+    <div class="controls-buttons">
+      <button class="btn btn-primary" id="btn-generate-report" type="button">Generate Report</button>
+    </div>
+  </div>
+
+  <!-- Print-only header -->
+  <div class="print-header" id="print-header">
+    <h2 class="print-title">Strategic Business Research Methods &mdash; Progress Report</h2>
+    <p class="print-student-name" id="print-student-name"></p>
+    <p class="print-timestamp" id="print-timestamp"></p>
+    <p class="print-report-code" id="print-report-code"></p>
+  </div>
+
+  <!-- Overall Stats -->
+  <div class="dashboard-section">
+    <h2 class="dashboard-section-heading">Course Overview</h2>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-card-value" id="stat-xp">0</span>
+        <span class="stat-card-label">Total XP</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card-value" id="stat-level">Research Novice</span>
+        <span class="stat-card-label">Current Level</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card-value" id="stat-activities">0 / 40</span>
+        <span class="stat-card-label">Activities Completed</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card-value" id="stat-badges">0</span>
+        <span class="stat-card-label">Badges Earned</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Per-Module Breakdown -->
+  <div class="dashboard-section">
+    <h2 class="dashboard-section-heading">Module Breakdown</h2>
+    <div id="modules-breakdown"></div>
+  </div>
+
+  <!-- Badges Section -->
+  <div class="dashboard-section">
+    <h2 class="dashboard-section-heading">Badges</h2>
+    <div class="badges-grid" id="badges-grid"></div>
+  </div>
+
+  <!-- Report Verification (print only) -->
+  <div class="print-footer" id="print-footer">
+    <p class="verification-note">This report was generated from local browser data. The verification code above can be used by the instructor to confirm report authenticity.</p>
+  </div>
+
+</div>
+
+<style>
+/* ==========================================================================
+   Progress Dashboard Styles
+   ========================================================================== */
+
+.progress-dashboard {
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+  padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-xxl);
+}
+
+/* Controls */
+.dashboard-controls {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+  padding: var(--spacing-lg);
+  background-color: var(--color-background-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+}
+
+.name-input-group {
+  flex: 1;
+}
+
+.name-label {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-gray);
+  margin-bottom: var(--spacing-xs);
+}
+
+.name-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background-color: var(--color-background);
+  color: var(--color-dark);
+  transition: border-color var(--transition-fast);
+}
+
+.name-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(227, 18, 11, 0.1);
+}
+
+.name-input::placeholder {
+  color: var(--color-light-gray);
+}
+
+.controls-buttons {
+  flex-shrink: 0;
+}
+
+/* Print Header (hidden on screen) */
+.print-header {
+  display: none;
+}
+
+/* Print Footer (hidden on screen) */
+.print-footer {
+  display: none;
+}
+
+/* Dashboard Sections */
+.dashboard-section {
+  margin-bottom: var(--spacing-xl);
+}
+
+.dashboard-section-heading {
+  font-family: var(--font-sans);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-dark);
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: var(--spacing-xs);
+  margin-bottom: var(--spacing-lg);
+  margin-top: 0;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-md);
+}
+
+.stat-card {
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: var(--spacing-lg);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.stat-card-value {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1.2;
+  margin-bottom: var(--spacing-xs);
+}
+
+.stat-card-label {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Module Cards */
+.module-progress-card {
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.module-progress-card.module-complete {
+  border-color: #28a745;
+}
+
+.module-progress-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-sm);
+}
+
+.module-progress-title {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-dark);
+  margin: 0;
+}
+
+.module-progress-title .module-num {
+  color: var(--color-primary);
+  margin-right: 0.3em;
+}
+
+.module-progress-count {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-gray);
+}
+
+.module-progress-count .count-done {
+  color: var(--color-primary);
+}
+
+/* Progress Bar */
+.module-bar-track {
+  width: 100%;
+  height: 8px;
+  background-color: var(--color-light-gray);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: var(--spacing-sm);
+}
+
+.module-bar-fill {
+  height: 100%;
+  background-color: var(--color-primary);
+  border-radius: 4px;
+  transition: width var(--transition-base);
+}
+
+.module-bar-fill.bar-complete {
+  background-color: #28a745;
+}
+
+/* Activity List */
+.activity-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--spacing-xs);
+}
+
+.activity-list-item {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0;
+}
+
+.activity-list-item.activity-done {
+  background-color: #f0faf0;
+  color: #1a7a2e;
+}
+
+.activity-list-item.activity-pending {
+  background-color: var(--color-background-alt);
+  color: var(--color-gray);
+}
+
+.activity-status-icon {
+  font-weight: 700;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+  width: 1.2rem;
+  text-align: center;
+}
+
+.activity-done .activity-status-icon {
+  color: #28a745;
+}
+
+.activity-pending .activity-status-icon {
+  color: var(--color-light-gray);
+}
+
+.activity-score {
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+/* Badges Grid */
+.badges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.badge-card {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background-color: var(--color-background);
+  box-shadow: var(--shadow-sm);
+}
+
+.badge-card.badge-earned {
+  border-color: var(--color-primary);
+  background-color: #fef5f5;
+}
+
+.badge-card.badge-locked {
+  opacity: 0.5;
+}
+
+.badge-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.badge-earned .badge-icon {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.badge-locked .badge-icon {
+  background-color: var(--color-light-gray);
+  color: var(--color-gray);
+}
+
+.badge-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.badge-name {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-dark);
+  line-height: 1.3;
+}
+
+.badge-desc {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--color-gray);
+  line-height: 1.4;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dashboard-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .activity-list {
+    grid-template-columns: 1fr;
+  }
+
+  .badges-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-card-value {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+@media print {
+  /* Hide site chrome */
+  .main-nav,
+  .site-footer,
+  .skip-link {
+    display: none !important;
+  }
+
+  /* Hide interactive controls */
+  .dashboard-controls {
+    display: none !important;
+  }
+
+  #btn-generate-report {
+    display: none !important;
+  }
+
+  /* Show print header */
+  .print-header {
+    display: block !important;
+    margin-bottom: var(--spacing-lg);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 2px solid var(--color-dark);
+  }
+
+  .print-title {
+    font-family: var(--font-sans);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-dark);
+    margin: 0 0 var(--spacing-xs) 0;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .print-student-name {
+    font-family: var(--font-sans);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-dark);
+    margin-bottom: 0.25rem;
+  }
+
+  .print-timestamp {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-gray);
+    margin-bottom: 0.25rem;
+  }
+
+  .print-report-code {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--color-gray);
+    margin-bottom: 0;
+  }
+
+  /* Show print footer */
+  .print-footer {
+    display: block !important;
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .verification-note {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    color: var(--color-gray);
+    font-style: italic;
+  }
+
+  /* Hide hero section for cleaner print */
+  .hero {
+    display: none !important;
+  }
+
+  /* Optimize layout */
+  .progress-dashboard {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .stat-card {
+    border: 1px solid #ccc;
+    box-shadow: none;
+  }
+
+  .module-progress-card {
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+
+  .badge-card {
+    box-shadow: none;
+  }
+
+  .dashboard-section-heading {
+    font-size: 1.3rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-sm);
+  }
+
+  .stat-card-value {
+    font-size: 1.4rem;
+  }
+
+  /* Ensure colors print */
+  .module-bar-fill {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .badge-earned .badge-icon {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .activity-list-item.activity-done {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .badge-card.badge-earned {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+</style>
+
+<script>
+(function () {
+  'use strict';
+
+  // ===== Configuration =====
+  var STORAGE_KEY = 'srm-course-progress';
+  var NAME_KEY = 'srm-student-name';
+
+  var LEVELS = [
+    { name: 'Research Novice', minXP: 0 },
+    { name: 'Research Apprentice', minXP: 50 },
+    { name: 'Research Analyst', minXP: 150 },
+    { name: 'Research Strategist', minXP: 300 },
+    { name: 'Research Expert', minXP: 450 },
+    { name: 'Research Master', minXP: 600 }
+  ];
+
+  var BADGES = {
+    'first-activity': { name: 'First Steps', desc: 'Complete your first activity', icon: '1' },
+    'perfect-score': { name: 'Perfect Score', desc: 'Get 100% on any activity', icon: 'P' },
+    'streak-3': { name: 'Hot Streak', desc: '3 perfect activities in a row', icon: '3' },
+    'streak-5': { name: 'On Fire', desc: '5 perfect activities in a row', icon: '5' },
+    'halfway': { name: 'Halfway There', desc: 'Complete 50% of all activities', icon: 'H' },
+    'quiz-whiz': { name: 'Quiz Whiz', desc: 'Score 80%+ on 5 quizzes', icon: 'Q' },
+    'flashcard-fan': { name: 'Term Expert', desc: 'Master all flashcard sets', icon: 'F' },
+    'course-complete': { name: 'Course Complete', desc: 'Finish all activities', icon: 'R' }
+  };
+
+  var MODULES = [
+    {
+      num: 1,
+      title: 'The Strategic Role of Research in Business',
+      activities: ['m1-sort-1', 'm1-quiz-1', 'm1-scenario-1', 'm1-match-1', 'm1-flash-1']
+    },
+    {
+      num: 2,
+      title: 'Defining Research Problems and Hypotheses',
+      activities: ['m2-sort-1', 'm2-match-1', 'm2-quiz-1', 'm2-scenario-1', 'm2-flash-1']
+    },
+    {
+      num: 3,
+      title: 'Research Design',
+      activities: ['m3-quiz-1', 'm3-match-1', 'm3-scenario-1', 'm3-match-2', 'm3-flash-1']
+    },
+    {
+      num: 4,
+      title: 'Secondary Data and Literature Review',
+      activities: ['m4-quiz-1', 'm4-match-1', 'm4-scenario-1', 'm4-sort-1', 'm4-flash-1']
+    },
+    {
+      num: 5,
+      title: 'Qualitative Research Methods',
+      activities: ['m5-scenario-1', 'm5-quiz-1', 'm5-match-1', 'm5-match-2', 'm5-flash-1']
+    },
+    {
+      num: 6,
+      title: 'Survey Research and Questionnaire Design',
+      activities: ['m6-quiz-1', 'm6-match-1', 'm6-scenario-1', 'm6-quiz-2', 'm6-flash-1']
+    },
+    {
+      num: 7,
+      title: 'Sampling Design and Data Collection',
+      activities: ['m7-match-1', 'm7-quiz-1', 'm7-scenario-1', 'm7-match-2', 'm7-flash-1']
+    },
+    {
+      num: 8,
+      title: 'Data Analysis, Interpretation, and Reporting',
+      activities: ['m8-quiz-1', 'm8-scenario-1', 'm8-match-1', 'm8-quiz-2', 'm8-flash-1']
+    }
+  ];
+
+  var ACTIVITY_TYPE_LABELS = {
+    'sort': 'Sort',
+    'quiz': 'Quiz',
+    'scenario': 'Scenario',
+    'match': 'Match',
+    'flash': 'Flashcards'
+  };
+
+  // ===== State =====
+  function loadProgress() {
+    try {
+      var saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        return JSON.parse(saved);
+      }
+    } catch (e) { /* ignore */ }
+    return {
+      xp: 0,
+      level: 0,
+      badges: [],
+      streak: 0,
+      completedActivities: {},
+      activityScores: {},
+      moduleProgress: {},
+      quizHighScores: 0,
+      flashcardSetsCompleted: 0
+    };
+  }
+
+  function loadStudentName() {
+    try {
+      return localStorage.getItem(NAME_KEY) || '';
+    } catch (e) { return ''; }
+  }
+
+  function saveStudentName(name) {
+    try {
+      localStorage.setItem(NAME_KEY, name);
+    } catch (e) { /* ignore */ }
+  }
+
+  // ===== Utility =====
+  function getLevelName(xp) {
+    var levelName = LEVELS[0].name;
+    for (var i = LEVELS.length - 1; i >= 0; i--) {
+      if (xp >= LEVELS[i].minXP) {
+        levelName = LEVELS[i].name;
+        break;
+      }
+    }
+    return levelName;
+  }
+
+  function getActivityLabel(activityId) {
+    // e.g., "m1-sort-1" -> "Sort 1"
+    var parts = activityId.split('-');
+    if (parts.length >= 3) {
+      var type = parts[1];
+      var num = parts[2];
+      var label = ACTIVITY_TYPE_LABELS[type] || type;
+      return label + ' ' + num;
+    }
+    return activityId;
+  }
+
+  function generateReportHash(xp, completedCount, timestamp) {
+    // Simple hash: combine values and produce a short alphanumeric code
+    var raw = 'SRM' + xp + '-' + completedCount + '-' + timestamp;
+    var hash = 0;
+    for (var i = 0; i < raw.length; i++) {
+      var chr = raw.charCodeAt(i);
+      hash = ((hash << 5) - hash) + chr;
+      hash |= 0; // Convert to 32-bit integer
+    }
+    // Convert to positive hex and pad
+    var hex = Math.abs(hash).toString(16).toUpperCase();
+    while (hex.length < 8) {
+      hex = '0' + hex;
+    }
+    return 'SRM-' + hex.substring(0, 4) + '-' + hex.substring(4, 8);
+  }
+
+  function formatDateTime(date) {
+    var months = ['January', 'February', 'March', 'April', 'May', 'June',
+      'July', 'August', 'September', 'October', 'November', 'December'];
+    var month = months[date.getMonth()];
+    var day = date.getDate();
+    var year = date.getFullYear();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var ampm = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12;
+    if (hours === 0) hours = 12;
+    var minStr = minutes < 10 ? '0' + minutes : '' + minutes;
+    return month + ' ' + day + ', ' + year + ' at ' + hours + ':' + minStr + ' ' + ampm;
+  }
+
+  function escapeHtml(str) {
+    var div = document.createElement('div');
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  }
+
+  // ===== Render =====
+  function renderDashboard() {
+    var state = loadProgress();
+    var xp = state.xp || 0;
+    var completedActivities = state.completedActivities || {};
+    var earnedBadges = state.badges || [];
+
+    var completedCount = Object.keys(completedActivities).length;
+    var levelName = getLevelName(xp);
+
+    // Overall Stats
+    document.getElementById('stat-xp').textContent = xp;
+    document.getElementById('stat-level').textContent = levelName;
+    document.getElementById('stat-activities').textContent = completedCount + ' / 40';
+    document.getElementById('stat-badges').textContent = earnedBadges.length;
+
+    // Module Breakdown
+    var modulesContainer = document.getElementById('modules-breakdown');
+    var modulesHtml = '';
+
+    for (var m = 0; m < MODULES.length; m++) {
+      var mod = MODULES[m];
+      var modCompleted = 0;
+      var modTotal = mod.activities.length;
+      var activitiesHtml = '';
+
+      for (var a = 0; a < mod.activities.length; a++) {
+        var actId = mod.activities[a];
+        var actData = completedActivities[actId];
+        var isDone = !!actData;
+
+        if (isDone) {
+          modCompleted++;
+        }
+
+        var label = getActivityLabel(actId);
+        var scoreText = isDone ? actData.score + '%' : '--';
+        var itemClass = isDone ? 'activity-done' : 'activity-pending';
+        var iconHtml = isDone ? '&#10003;' : '&#9675;';
+
+        activitiesHtml += '<li class="activity-list-item ' + itemClass + '">' +
+          '<span class="activity-status-icon">' + iconHtml + '</span>' +
+          '<span class="activity-name">' + escapeHtml(label) + '</span>' +
+          '<span class="activity-score">' + scoreText + '</span>' +
+          '</li>';
+      }
+
+      var percent = modTotal > 0 ? Math.round((modCompleted / modTotal) * 100) : 0;
+      var isComplete = modCompleted === modTotal && modTotal > 0;
+      var cardClass = isComplete ? 'module-progress-card module-complete' : 'module-progress-card';
+      var barClass = isComplete ? 'module-bar-fill bar-complete' : 'module-bar-fill';
+
+      modulesHtml += '<div class="' + cardClass + '">' +
+        '<div class="module-progress-header">' +
+          '<h3 class="module-progress-title"><span class="module-num">Module ' + mod.num + ':</span> ' + escapeHtml(mod.title) + '</h3>' +
+          '<span class="module-progress-count"><span class="count-done">' + modCompleted + '</span> / ' + modTotal + ' (' + percent + '%)</span>' +
+        '</div>' +
+        '<div class="module-bar-track"><div class="' + barClass + '" style="width:' + percent + '%"></div></div>' +
+        '<ul class="activity-list">' + activitiesHtml + '</ul>' +
+        '</div>';
+    }
+
+    modulesContainer.innerHTML = modulesHtml;
+
+    // Badges
+    var badgesContainer = document.getElementById('badges-grid');
+    var badgesHtml = '';
+    var badgeIds = Object.keys(BADGES);
+
+    for (var b = 0; b < badgeIds.length; b++) {
+      var bid = badgeIds[b];
+      var badge = BADGES[bid];
+      var isEarned = earnedBadges.indexOf(bid) !== -1;
+      var badgeClass = isEarned ? 'badge-card badge-earned' : 'badge-card badge-locked';
+
+      badgesHtml += '<div class="' + badgeClass + '">' +
+        '<div class="badge-icon">' + escapeHtml(badge.icon) + '</div>' +
+        '<div class="badge-info">' +
+          '<span class="badge-name">' + escapeHtml(badge.name) + (isEarned ? '' : ' (Locked)') + '</span>' +
+          '<span class="badge-desc">' + escapeHtml(badge.desc) + '</span>' +
+        '</div>' +
+        '</div>';
+    }
+
+    badgesContainer.innerHTML = badgesHtml;
+  }
+
+  // ===== Generate Report =====
+  function generateReport() {
+    var nameInput = document.getElementById('student-name');
+    var studentName = nameInput.value.trim();
+
+    if (!studentName) {
+      nameInput.focus();
+      nameInput.style.borderColor = 'var(--color-primary)';
+      nameInput.setAttribute('placeholder', 'Please enter your name before generating the report');
+      return;
+    }
+
+    saveStudentName(studentName);
+
+    var state = loadProgress();
+    var xp = state.xp || 0;
+    var completedCount = Object.keys(state.completedActivities || {}).length;
+    var now = new Date();
+    var timestamp = now.getTime();
+    var reportHash = generateReportHash(xp, completedCount, timestamp);
+
+    // Populate print header
+    document.getElementById('print-student-name').textContent = 'Student: ' + studentName;
+    document.getElementById('print-timestamp').textContent = 'Report generated on ' + formatDateTime(now);
+    document.getElementById('print-report-code').textContent = 'Verification Code: ' + reportHash;
+
+    // Trigger print
+    window.print();
+  }
+
+  // ===== Init =====
+  document.addEventListener('DOMContentLoaded', function () {
+    // Restore student name
+    var savedName = loadStudentName();
+    if (savedName) {
+      document.getElementById('student-name').value = savedName;
+    }
+
+    // Save name on change
+    document.getElementById('student-name').addEventListener('input', function () {
+      saveStudentName(this.value);
+    });
+
+    // Generate report button
+    document.getElementById('btn-generate-report').addEventListener('click', generateReport);
+
+    // Render the dashboard
+    renderDashboard();
+  });
+
+})();
+</script>

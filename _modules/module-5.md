@@ -75,6 +75,26 @@ Depth interviews are also preferred when the research requires a detailed unders
 
 Situations in which group dynamics might inhibit honest responses also call for depth interviews rather than focus groups. When respondents hold minority opinions, when the topic involves socially undesirable behavior, or when participants might feel pressure to conform to a dominant voice, the private setting of a depth interview removes those barriers. Finally, depth interviews are often the only practical option when the target population is difficult to assemble in groups. Interviewing C-suite executives, rare disease patients, or geographically dispersed experts one at a time is far more feasible than coordinating a group session, and the individual attention can be more appropriate for respondents whose time is scarce and whose perspectives are particularly valuable.
 
+<div class="activity-scenario" data-activity-id="m5-scenario-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge scenario">Scenario</span>
+    <h3>Focus Group or Depth Interview?</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="scenario-prompt">A pharmaceutical company wants to understand why patients with a chronic condition sometimes stop taking their prescribed medication. The topic involves personal health information, feelings of shame or failure, and complex individual decision-making processes that vary widely from patient to patient. Some patients may have stopped due to side effects, others due to cost, and still others due to a belief that the medication was unnecessary. The company needs to understand each patient's unique narrative in detail.</div>
+    <p class="scenario-question">Which qualitative method is most appropriate for this research?</p>
+    <div class="scenario-options">
+      <div class="scenario-option" data-correct="false"><span>Focus groups of 8-10 patients, because the group interaction will generate richer insights than individual conversations and patients can build on each other's experiences.</span><div class="scenario-feedback">Focus groups are not the best choice here. Medication non-adherence is a sensitive, personal topic that involves health information and potential feelings of shame. Participants are unlikely to speak candidly in front of strangers about why they stopped taking their medication. Group dynamics such as social desirability bias and conformity pressure would suppress honest disclosure.</div></div>
+      <div class="scenario-option" data-correct="true"><span>Depth interviews, because the sensitive and personal nature of the topic requires a private, one-on-one setting where each patient can share their unique experience without fear of judgment from other participants.</span><div class="scenario-feedback">Correct. Depth interviews are the method of choice when the topic is sensitive or deeply personal. The private setting removes the social pressure of a group, allowing patients to speak honestly about their reasons for stopping medication. Each patient's narrative is unique and complex, requiring the sustained, focused attention that a one-on-one conversation provides. The interviewer can probe deeply into individual decision-making processes that would be impossible to explore in a group setting.</div></div>
+      <div class="scenario-option" data-correct="false"><span>A combination of focus groups first (to identify broad themes) followed by a structured survey, since qualitative research is only useful for generating hypotheses that quantitative methods then test.</span><div class="scenario-feedback">While combining methods can be valuable, starting with focus groups is problematic here because the sensitive nature of the topic would inhibit honest discussion in a group setting. Additionally, this option incorrectly suggests jumping to a structured survey before the phenomenon is well understood. Depth interviews should come first to build a detailed understanding of each patient's experience before any quantitative measurement is designed.</div></div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 5.5 Focus Groups
 
 A **focus group** is a moderated group discussion among 6--10 participants, guided by a trained moderator who follows a structured discussion guide. Focus groups leverage **group interaction** -- participants respond to and build upon each other's comments, generating richer insights than individual interviews alone might produce.
@@ -102,6 +122,53 @@ The subjective nature of focus group analysis presents another challenge. Becaus
 The quality of focus group data depends heavily on the moderator's skill, creating a form of moderator dependency that can be both a strength and a vulnerability. A skilled moderator draws out quiet participants, manages dominant personalities, follows promising tangents without losing sight of the research objectives, and maintains a neutral stance that does not signal approval or disapproval of any particular viewpoint. A poor moderator, by contrast, can inadvertently lead the group toward a predetermined conclusion, allow one or two vocal participants to dominate the conversation, or suppress minority viewpoints that might have been the most valuable findings of the study.
 
 Group effects pose a final set of challenges. Social desirability bias may lead participants to express opinions they believe are socially acceptable rather than their genuine views, particularly on topics involving health, ethics, spending habits, or controversial social issues. Conformity pressure can cause participants to align their expressed opinions with a perceived group consensus, even when they privately disagree. In extreme cases, a form of groupthink can develop in which the desire for group harmony overrides honest expression of dissenting views. Skilled moderators mitigate these effects by establishing ground rules that explicitly welcome disagreement, by probing beneath surface-level consensus, and by using techniques such as having participants write down their initial reactions before the group discussion begins.
+
+<div class="activity-quiz" data-activity-id="m5-quiz-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge quiz">Knowledge Check</span>
+    <h3>Focus Group Best Practices</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="quiz-question" data-correct="b">
+      <p>What is the recommended minimum number of focus groups per segment of interest?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>One group per segment, as long as it contains at least 10 participants</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Two groups per segment, to distinguish genuine patterns from group-specific dynamics</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Four groups per segment, which is the standard for all business research</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>There is no minimum; one group is sufficient if the moderator is skilled</span></div>
+      </div>
+      <div class="feedback-correct">Correct. A minimum of two groups per segment is recommended because conducting only one group makes it impossible to distinguish genuine patterns from dynamics unique to a particular combination of personalities and group chemistry.</div>
+      <div class="feedback-incorrect">The recommended minimum is two groups per segment (answer B). With only one group, researchers cannot tell whether findings reflect genuine patterns or artifacts of that particular group's chemistry. Two or more independently composed groups within the same segment provide the confidence needed to identify real patterns.</div>
+    </div>
+    <div class="quiz-question" data-correct="c">
+      <p>Which of the following is a disadvantage rather than an advantage of focus groups?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>They generate spontaneous insights through group interaction and collective brainstorming</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>They allow researchers to observe social dynamics and how opinions form in real time</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Conformity pressure may cause participants to align their opinions with a perceived group consensus</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>They produce rich data that captures not just what people think but how they think</span></div>
+      </div>
+      <div class="feedback-correct">Correct. Conformity pressure is a well-documented disadvantage of focus groups. Participants may align their expressed opinions with a perceived group consensus even when they privately disagree, which can suppress minority viewpoints and distort the findings.</div>
+      <div class="feedback-incorrect">The correct answer is C. Options A, B, and D are all recognized advantages of focus groups. Conformity pressure -- the tendency for participants to align their opinions with the group consensus even when they privately disagree -- is a disadvantage that can suppress honest expression of dissenting views.</div>
+    </div>
+    <div class="quiz-question" data-correct="d">
+      <p>What is a critical skill that an effective focus group moderator must demonstrate?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Sharing personal opinions to build rapport with participants</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Allowing the most vocal participant to lead the discussion to maintain energy</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Strictly following the discussion guide without deviating from the planned questions</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Drawing out quiet participants and managing dominant personalities while maintaining neutrality</span></div>
+      </div>
+      <div class="feedback-correct">Correct. A skilled moderator draws out quiet participants, manages dominant personalities, follows promising tangents without losing sight of the research objectives, and maintains a neutral stance. This balance ensures that all perspectives are heard and that the moderator does not inadvertently lead the group toward a predetermined conclusion.</div>
+      <div class="feedback-incorrect">The correct answer is D. Effective moderators draw out quiet participants, manage dominant personalities, and maintain neutrality. Sharing personal opinions (A) would bias the discussion. Allowing one person to dominate (B) suppresses other viewpoints. Strictly following the guide without deviation (C) would miss valuable tangents and spontaneous insights.</div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-check-answer">Check Answer</button>
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
 
 ## 5.6 Projective Techniques
 
@@ -189,6 +256,38 @@ Not all relevant activity can be captured, even with careful planning. Important
 <p>When analyzing qualitative text data—such as focus group transcripts, open-ended survey responses, or customer reviews—visual tools can help identify dominant themes and compare perspectives across groups. The <strong><a href="https://analytics.gonzaga.edu/WCloudGenerator/" target="_blank" rel="noopener noreferrer">Word Cloud Generator</a></strong> lets you paste text from two categories and generates word clouds, comparison clouds (highlighting differences), and commonality clouds (highlighting shared themes). Try it with any two text samples to see patterns that might not be apparent from reading alone.</p>
 </div>
 
+<div class="activity-match" data-activity-id="m5-match-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge match">Match Pairs</span>
+    <h3>Observation Dimensions</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>Click an item on the left, then click its match on the right.</p>
+    <div class="match-container">
+      <div class="match-left">
+        <div class="match-column-label">Dimension</div>
+        <div class="match-item" data-match-id="l1" data-match-target="r1">Structure</div>
+        <div class="match-item" data-match-id="l2" data-match-target="r2">Disguise</div>
+        <div class="match-item" data-match-id="l3" data-match-target="r3">Directness</div>
+        <div class="match-item" data-match-id="l4" data-match-target="r4">Setting</div>
+        <div class="match-item" data-match-id="l5" data-match-target="r5">Observer Type</div>
+      </div>
+      <div class="match-right">
+        <div class="match-column-label">Example Scenario</div>
+        <div class="match-item" data-match-id="r1">A researcher uses a predetermined checklist to count how many products a shopper picks up before making a selection</div>
+        <div class="match-item" data-match-id="r2">A researcher poses as a regular customer while studying how salespeople interact with shoppers</div>
+        <div class="match-item" data-match-id="r3">A museum studies scuff marks on floor tiles to determine which exhibits are most popular</div>
+        <div class="match-item" data-match-id="r4">Participants are brought into a test kitchen to prepare meals while researchers watch through one-way glass</div>
+        <div class="match-item" data-match-id="r5">Eye-tracking cameras record where consumers look on product packaging in a store display</div>
+      </div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 5.8 Emerging Qualitative Methods
 
 While traditional qualitative methods remain foundational, several newer approaches have gained prominence as technology and evolving research paradigms open new possibilities for understanding human behavior and experience.
@@ -209,6 +308,36 @@ Co-creation and participatory design approaches fundamentally redefine the relat
 
 Empathy mapping and journey mapping are visual synthesis tools that translate raw qualitative data into structured, actionable frameworks. An empathy map organizes qualitative findings around four quadrants representing what a customer thinks, feels, says, and does, creating a holistic portrait that helps product teams, marketers, and strategists develop genuine understanding of their target audience's perspective. Journey maps trace the customer experience across all touchpoints and over time, from initial awareness through purchase, use, and post-purchase evaluation, identifying moments of delight, frustration, confusion, and unmet need at each stage. While these tools are most commonly associated with design thinking and user experience research, they draw directly on qualitative research methods for their underlying data and serve as powerful bridges between qualitative insight and strategic action.
 
+<div class="activity-match" data-activity-id="m5-match-2" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge match">Match Pairs</span>
+    <h3>Emerging Qualitative Methods</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>Click an item on the left, then click its match on the right.</p>
+    <div class="match-container">
+      <div class="match-left">
+        <div class="match-column-label">Method</div>
+        <div class="match-item" data-match-id="l1" data-match-target="r1">Netnography</div>
+        <div class="match-item" data-match-id="l2" data-match-target="r2">Mobile Ethnography</div>
+        <div class="match-item" data-match-id="l3" data-match-target="r3">Co-Creation</div>
+        <div class="match-item" data-match-id="l4" data-match-target="r4">Empathy Mapping</div>
+      </div>
+      <div class="match-right">
+        <div class="match-column-label">Description</div>
+        <div class="match-item" data-match-id="r1">Systematic study of online communities, forums, and user-generated content to understand consumer culture and brand perceptions in digital spaces</div>
+        <div class="match-item" data-match-id="r2">Participants use their smartphones to capture real-time photos, video diaries, and text entries about their experiences as they go about daily life</div>
+        <div class="match-item" data-match-id="r3">Participants work alongside researchers as active collaborators, sketching ideal products, mapping service experiences, or building prototypes</div>
+        <div class="match-item" data-match-id="r4">A visual synthesis tool that organizes qualitative findings around what a customer thinks, feels, says, and does to build a holistic portrait of their perspective</div>
+      </div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 5.9 Limitations of Qualitative Research
 
 Despite its richness, qualitative research has inherent limitations that must be acknowledged honestly and managed thoughtfully.
@@ -224,6 +353,68 @@ Subjectivity in analysis is closely related. The process of reading transcripts,
 Finally, while individual qualitative studies may be less expensive than large-scale surveys in absolute terms, the cost per respondent is typically much higher. Conducting, recording, transcribing, and analyzing a single depth interview may require several hours of researcher time, and a focus group requires the investment of moderator fees, facility rental, participant incentives, and transcription costs for data from only six to ten respondents. This cost structure limits the number of individuals who can be studied and reinforces the importance of treating qualitative and quantitative methods as complements rather than substitutes.
 
 The strongest research programs use qualitative and quantitative methods in complementary roles: qualitative research to explore, understand, and generate hypotheses; quantitative research to test, measure, and generalize.
+
+<div class="activity-flashcards" data-activity-id="m5-flash-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge flashcards">Flashcards</span>
+    <h3>Key Terms</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="flashcard-deck">
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Focus Group</div>
+          <div class="flashcard-back">A moderated group discussion among 6-10 participants, guided by a trained moderator who follows a structured discussion guide. Focus groups leverage group interaction so participants respond to and build upon each other's comments, generating richer insights than individual interviews alone.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Depth Interview</div>
+          <div class="flashcard-back">A one-on-one, semi-structured conversation between a trained researcher and a respondent, conducted to explore a topic in depth. The interviewer uses a topic guide rather than a rigid script, allowing the conversation to follow the respondent's lead while ensuring key topics are covered.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Projective Techniques</div>
+          <div class="flashcard-back">Indirect research methods that ask respondents to project their attitudes, feelings, or motivations onto ambiguous stimuli. Used when direct questioning may not elicit honest or insightful responses because respondents cannot articulate their feelings or are unwilling to share them. Examples include word association, sentence completion, and cartoon completion.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Netnography</div>
+          <div class="flashcard-back">The systematic study of online communities, forums, social media conversations, and user-generated content. Coined by Robert Kozinets, netnography draws on naturally occurring digital discourse to understand consumer culture, brand perceptions, and community dynamics without the reactive effects that accompany interviews and focus groups.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Observation</div>
+          <div class="flashcard-back">A research method that involves systematically watching and recording behavior as it naturally occurs or in contrived settings. Observation captures what people actually do rather than what they say they do. It can be classified along five dimensions: structure, disguise, directness, setting, and observer type.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Pilot Study</div>
+          <div class="flashcard-back">A small-scale, preliminary investigation that uses sampling but does not apply the rigorous standards of full-scale research. Pilot studies test the feasibility of a research approach before committing to a larger study, helping researchers refine questions, estimate response rates, identify sampling problems, and train research staff.</div>
+        </div>
+      </div>
+    </div>
+    <p class="flashcard-hint">Click the card to flip it</p>
+    <div class="flashcard-nav">
+      <button class="fc-prev">Previous</button>
+      <span class="fc-counter">1 / 6</span>
+      <button class="fc-next">Next</button>
+      <button class="fc-got-it">Got It!</button>
+    </div>
+    <div class="fc-progress-info">Mastered: <span class="fc-mastered-count">0</span> / 6</div>
+  </div>
+  <div class="activity-footer"></div>
+</div>
+
+<div class="callout callout-key-concept">
+<p class="callout-title">Canvas Submission</p>
+<p>Complete all five interactive activities in this module and submit your Progress Report in Canvas. This week, submit <strong>Research Proposal Milestone 2: Literature Review and Research Design</strong> in Canvas. Expand your proposal with a literature review section and specify your chosen research design (exploratory, descriptive, or causal) with justification. Post your discussion response.</p>
+</div>
 
 ---
 

@@ -97,6 +97,36 @@ Each of these methods warrants further discussion, because choosing among them r
 
 The limitations of non-probability sampling are significant and should be clearly understood by any researcher who employs these methods. Because the probability of selection is unknown, the results of a non-probability study cannot be generalized to the broader population with statistical confidence. The researcher cannot calculate margins of error or construct confidence intervals in the way that probability sampling permits. Selection bias is inherent in all non-probability methods, because certain types of individuals are systematically more or less likely to be included depending on the selection mechanism -- more accessible individuals, more cooperative respondents, and those with larger social networks are all overrepresented. Furthermore, because sampling error cannot be estimated, the researcher has no quantitative basis for assessing how closely the sample statistics approximate the true population parameters. For these reasons, non-probability samples are best suited to exploratory research, pilot testing, and situations where the research objective does not require statistical generalization.
 
+<div class="activity-match" data-activity-id="m7-match-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge match">Match Pairs</span>
+    <h3>Match the Non-Probability Sampling Method to Its Scenario</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>Click an item on the left, then click its match on the right.</p>
+    <div class="match-container">
+      <div class="match-left">
+        <div class="match-column-label">Sampling Method</div>
+        <div class="match-item" data-match-id="l1" data-match-target="r1">Judgmental (Purposive)</div>
+        <div class="match-item" data-match-id="l2" data-match-target="r2">Snowball</div>
+        <div class="match-item" data-match-id="l3" data-match-target="r3">Convenience</div>
+        <div class="match-item" data-match-id="l4" data-match-target="r4">Quota</div>
+      </div>
+      <div class="match-right">
+        <div class="match-column-label">Scenario</div>
+        <div class="match-item" data-match-id="r4">A researcher needs 50 men and 50 women for a brand perception study and recruits willing participants at a shopping mall until each group is filled</div>
+        <div class="match-item" data-match-id="r2">A researcher studying angel investors begins with three known investors and asks each to recommend other investors they know who might participate</div>
+        <div class="match-item" data-match-id="r1">A marketing consultant hand-picks five companies known for innovative supply chain practices to study best practices in logistics</div>
+        <div class="match-item" data-match-id="r3">A student distributes a survey to classmates during a lecture to quickly pretest a new questionnaire before the full study launches</div>
+      </div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 7.4 Probability Sampling
 
 In **probability sampling**, every member of the target population has a **known, non-zero probability** of being selected. This property is not merely a technical nicety; it is the foundation upon which statistical inference rests. Because the selection probabilities are known, the researcher can estimate sampling error, construct confidence intervals, and generalize findings from the sample to the broader population with quantifiable precision. Probability sampling is therefore the preferred approach whenever the research requires statistical generalization and the necessary resources -- a complete sampling frame, adequate budget, and sufficient time -- are available.
@@ -116,6 +146,53 @@ Systematic sampling offers a practical alternative to simple random sampling tha
 Systematic sampling has several practical advantages over SRS. It is simpler to implement, because the researcher needs only a single random number (the starting point) rather than a full set of random selections. It also spreads the sample evenly across the entire list, which can be beneficial if the list is ordered in a way that relates to the variable of interest -- for instance, an alphabetical list of customers may implicitly distribute the sample across geographic regions or demographic groups. In many applications, including telephone surveys and intercept studies at retail locations, systematic sampling is the method of choice because of its operational simplicity.
 
 The primary risk of systematic sampling arises when the list has a periodic pattern -- a regular, recurring structure -- that coincides with the sampling interval. If employees on a roster are listed in groups of 10, with a supervisor listed every 10th position, and the sampling interval is also 10, the sample might consist entirely of supervisors or entirely of non-supervisors, depending on the starting point. Such periodicity is relatively rare in practice but should be checked for before implementing systematic sampling. When the list has no periodic pattern, systematic sampling produces results that are functionally equivalent to simple random sampling.
+
+<div class="activity-quiz" data-activity-id="m7-quiz-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge quiz">Knowledge Check</span>
+    <h3>Probability Sampling Fundamentals</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="quiz-question" data-correct="c">
+      <p>What distinguishes simple random sampling (SRS) from other probability sampling methods?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>It is the cheapest method to implement for large populations</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>It guarantees proportional representation of all subgroups</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Every member has an equal probability of selection, and every possible sample of a given size is equally likely</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>It does not require a complete list of the population</span></div>
+      </div>
+      <div class="feedback-correct">Correct. SRS requires both that each individual has an equal chance of being selected and that every possible sample of the desired size is equally likely to be drawn. This dual requirement makes it the gold standard for probability sampling.</div>
+      <div class="feedback-incorrect">Not quite. SRS is defined by its dual requirement: each member has an equal probability of selection, and every possible sample of a given size is equally likely. It actually requires a complete population list and does not guarantee subgroup representation.</div>
+    </div>
+    <div class="quiz-question" data-correct="b">
+      <p>What is the primary risk associated with systematic sampling?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>It always produces biased samples because only one random number is used</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>If the list has a periodic pattern that coincides with the sampling interval, the sample may be severely biased</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>It cannot be used with populations larger than 10,000 members</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>It requires stratification before selection can begin</span></div>
+      </div>
+      <div class="feedback-correct">Correct. Periodicity is the key risk in systematic sampling. If the list has a recurring pattern that aligns with the sampling interval (e.g., every 10th person is a supervisor and k = 10), the resulting sample can be seriously unrepresentative.</div>
+      <div class="feedback-incorrect">The main risk is periodicity -- when the list has a regular, recurring pattern that coincides with the sampling interval. For example, if supervisors appear every 10th position and the sampling interval is also 10, the sample could consist entirely of supervisors or entirely of non-supervisors.</div>
+    </div>
+    <div class="quiz-question" data-correct="d">
+      <p>Under which condition is a census generally preferred over sampling?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>When the population is large and geographically dispersed</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>When the research budget is limited and time is short</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>When the population is highly homogeneous on the variable of interest</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>When the population is small and the cost of an incorrect decision is very high</span></div>
+      </div>
+      <div class="feedback-correct">Correct. A census is preferred when the population is small enough to survey completely and when the stakes are high enough that even a small margin of sampling error is unacceptable. A census eliminates sampling error entirely.</div>
+      <div class="feedback-incorrect">A census is most appropriate when the population is small (making complete enumeration feasible) and when the cost of making an incorrect decision is very high (justifying the additional investment). Large, dispersed populations and limited budgets are conditions that favor sampling, not a census.</div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-check-answer">Check Answer</button>
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
 
 ## 7.5 Stratified and Cluster Sampling
 
@@ -144,6 +221,26 @@ The logic of cluster sampling rests on the assumption that each cluster is a mic
 | **Best for** | Improving precision when subgroups differ on the variable of interest | Reducing cost when the population is geographically dispersed |
 
 The distinction between stratified and cluster sampling is one of the most important conceptual points in sampling design. In stratified sampling, the researcher wants the groups (strata) to be internally homogeneous so that sampling a few members from each stratum efficiently captures the variation in the population. In cluster sampling, by contrast, the researcher wants the groups (clusters) to be internally heterogeneous -- each cluster should resemble the population as a whole -- because only some clusters will be sampled. The efficiency gains of stratified sampling come from increased precision at modest additional cost, while the efficiency gains of cluster sampling come from reduced cost at a modest sacrifice in precision. The choice between the two depends on the structure of the population, the availability of stratifying information, and the relative importance of cost and precision in the specific research context.
+
+<div class="activity-scenario" data-activity-id="m7-scenario-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge scenario">Scenario</span>
+    <h3>Stratified or Cluster Sampling?</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="scenario-prompt">A large national bank wants to survey its customers about satisfaction with online banking services. The bank has 2 million customers spread across 800 branch locations in 40 states. The research team has a limited travel budget but needs to conduct in-person follow-up interviews with a subset of survey respondents. Customer satisfaction is expected to vary significantly by account type (checking-only, savings-only, and full-service customers), but branches in different regions are believed to serve fairly similar mixes of customers.</div>
+    <p class="scenario-question">Which sampling approach is more appropriate for this study?</p>
+    <div class="scenario-options">
+      <div class="scenario-option" data-correct="false"><span>Stratified sampling by geographic region, drawing random samples from each state</span><div class="scenario-feedback">Stratified sampling by region would not address the primary concern here. The key issue is the limited travel budget combined with a geographically dispersed population. Since branches in different regions serve similar customer mixes, stratifying by region would add cost without meaningfully improving precision.</div></div>
+      <div class="scenario-option" data-correct="true"><span>Cluster sampling, randomly selecting a subset of branch locations and surveying customers within those branches</span><div class="scenario-feedback">Correct. Cluster sampling is the better choice here. The branches serve as natural clusters that are internally heterogeneous (each contains a diverse mix of customer types) and relatively similar to each other across regions. By randomly selecting a manageable number of branches, the bank can dramatically reduce travel costs for in-person follow-ups while still obtaining a representative sample. This is exactly the scenario where cluster sampling excels -- reducing cost for geographically dispersed populations.</div></div>
+      <div class="scenario-option" data-correct="false"><span>Stratified sampling by account type, drawing random samples of checking-only, savings-only, and full-service customers from across all branches</span><div class="scenario-feedback">While stratifying by account type would ensure representation of each customer segment (a valid concern given expected satisfaction differences by account type), this approach ignores the practical constraint of a limited travel budget. Drawing customers from all 800 branches would make in-person follow-ups prohibitively expensive. A better approach would be to first cluster by branch location and then stratify within selected branches if needed.</div></div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
 
 ## 7.6 Determining Sample Size
 
@@ -208,6 +305,38 @@ The specific sources of error that researchers must guard against include the fo
 <p>The Jesuit commitment to justice demands that we consider <strong>who is represented in our samples and who is excluded</strong>. When sampling methods systematically exclude certain populations—those without internet access, non-English speakers, people in poverty, individuals with disabilities—the resulting data reflect only a partial truth. Research that claims to represent "consumers" or "employees" but excludes marginalized groups perpetuates inequality by making those groups invisible in the evidence base that informs business decisions. Inclusive sampling is not just methodologically sound; it is ethically imperative.</p>
 </div>
 
+<div class="activity-match" data-activity-id="m7-match-2" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge match">Match Pairs</span>
+    <h3>Match the Error Type to Its Description</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>Click an item on the left, then click its match on the right.</p>
+    <div class="match-container">
+      <div class="match-left">
+        <div class="match-column-label">Error Type</div>
+        <div class="match-item" data-match-id="l1" data-match-target="r1">Sampling Frame Error</div>
+        <div class="match-item" data-match-id="l2" data-match-target="r2">Selection Error</div>
+        <div class="match-item" data-match-id="l3" data-match-target="r3">Non-Response Error</div>
+        <div class="match-item" data-match-id="l4" data-match-target="r4">Response Error</div>
+        <div class="match-item" data-match-id="l5" data-match-target="r5">Data Processing Error</div>
+      </div>
+      <div class="match-right">
+        <div class="match-column-label">Description</div>
+        <div class="match-item" data-match-id="r3">Selected individuals decline to participate or cannot be contacted, and those who do not respond differ systematically from those who do</div>
+        <div class="match-item" data-match-id="r5">Mistakes in coding, data entry, or statistical analysis distort results even when the original data are sound</div>
+        <div class="match-item" data-match-id="r1">The list used to draw the sample does not accurately represent the target population, including or excluding individuals who should not be</div>
+        <div class="match-item" data-match-id="r4">Participants provide inaccurate answers due to misunderstanding, social desirability bias, faulty recall, or deliberate misrepresentation</div>
+        <div class="match-item" data-match-id="r2">Interviewers deviate from the sampling protocol, substitute convenient respondents, or make mistakes applying the selection rules</div>
+      </div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 7.8 Managing the Data Collection Process
 
 Even the best sampling plan and questionnaire can fail if data collection is poorly managed. The transition from a carefully designed research plan to actual data in hand is fraught with practical challenges, and the quality of the final dataset depends as much on the rigor of the data collection process as on the elegance of the research design.
@@ -221,6 +350,68 @@ Even the best sampling plan and questionnaire can fail if data collection is poo
 **Data security** has become an increasingly critical concern as research collects more sensitive information and as data breaches carry more severe legal and reputational consequences. Respondent data must be protected from unauthorized access at every stage -- during collection, transmission, storage, and analysis. This includes physical security measures (locked filing cabinets for paper questionnaires), electronic security measures (encrypted databases, secure file transfers, password-protected access), and procedural safeguards (limiting access to identified data to those who need it, de-identifying data as early as possible in the process).
 
 Finally, thorough **documentation** of the data collection process is essential for both immediate quality assessment and long-term research value. The researcher should maintain a complete record of the procedures used, the problems encountered (and how they were resolved), the deviations from the original plan, the response rates achieved, and any decisions made during data collection that might affect the interpretation of results. This documentation serves multiple purposes: it enables the researcher to assess data quality honestly, it allows other researchers to evaluate and replicate the study, and it provides an audit trail that supports the credibility and transparency of the research.
+
+<div class="activity-flashcards" data-activity-id="m7-flash-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge flashcards">Flashcards</span>
+    <h3>Key Sampling Terms</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="flashcard-deck">
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Sampling Frame</div>
+          <div class="flashcard-back">The actual list, directory, database, or mechanism from which sample members are drawn. It is the operational representation of the target population and may not perfectly match it.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Probability Sampling</div>
+          <div class="flashcard-back">A sampling approach in which every member of the target population has a known, non-zero probability of being selected, enabling the researcher to estimate sampling error and generalize findings statistically.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Stratified Sampling</div>
+          <div class="flashcard-back">A probability sampling method in which the population is divided into mutually exclusive, homogeneous subgroups (strata) and a separate random sample is drawn from each stratum to ensure all key subgroups are represented.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Cluster Sampling</div>
+          <div class="flashcard-back">A probability sampling method in which the population is divided into heterogeneous groups (clusters), a random subset of clusters is selected, and then all or some members within those clusters are studied. It reduces cost for geographically dispersed populations.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Sampling Error</div>
+          <div class="flashcard-back">The difference between a sample statistic and the true population parameter, arising because a sample rather than a census was used. It is quantifiable, controllable, and can be reduced by increasing sample size.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Non-Response Error</div>
+          <div class="flashcard-back">A type of non-sampling error that occurs when selected individuals decline to participate or cannot be contacted, and when those who do not respond differ systematically from those who do, biasing the results.</div>
+        </div>
+      </div>
+    </div>
+    <p class="flashcard-hint">Click the card to flip it</p>
+    <div class="flashcard-nav">
+      <button class="fc-prev">Previous</button>
+      <span class="fc-counter">1 / 6</span>
+      <button class="fc-next">Next</button>
+      <button class="fc-got-it">Got It!</button>
+    </div>
+    <div class="fc-progress-info">Mastered: <span class="fc-mastered-count">0</span> / 6</div>
+  </div>
+  <div class="activity-footer"></div>
+</div>
+
+<div class="callout callout-key-concept">
+<p class="callout-title">Canvas Submission</p>
+<p>Complete all five interactive activities in this module and submit your Progress Report in Canvas. Submit <strong>Research Proposal Milestone 3: Methodology and Sampling Plan</strong> in Canvas. Detail your data collection method, sampling strategy, and sample size rationale. Complete a <strong>Peer Review</strong> of two classmates' research proposal drafts. Post your discussion response.</p>
+</div>
 
 ---
 

@@ -36,6 +36,53 @@ Data can be classified along two fundamental dimensions:
 
 The research process should generally start with secondary data. Only when secondary data are insufficient or unavailable should the researcher invest in primary data collection. This principle is not merely a cost-saving heuristic; it reflects sound research practice. Secondary data provide context, suggest hypotheses, reveal what is already known, and help the researcher avoid asking questions that have already been answered.
 
+<div class="activity-quiz" data-activity-id="m4-quiz-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge quiz">Knowledge Check</span>
+    <h3>Primary or Secondary?</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="quiz-question" data-correct="b">
+      <p>A marketing analyst at a shoe company downloads U.S. Census Bureau data on household income by zip code to identify high-potential markets for a new premium sneaker line. What type of data is this?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Primary data</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Secondary data</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Qualitative data</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Experimental data</span></div>
+      </div>
+      <div class="feedback-correct">Correct. Census Bureau data were collected by the government for its own purposes, not for the shoe company's research question. Because the data already existed and were collected by someone else for a different purpose, they are secondary data. This is one of the most common and valuable types of secondary data for business research.</div>
+      <div class="feedback-incorrect">This is secondary data. The Census Bureau collected these data for government purposes, not to help the shoe company find markets for premium sneakers. The key distinction is that secondary data were collected for a purpose other than the current research question and already exist before the researcher begins their study.</div>
+    </div>
+    <div class="quiz-question" data-correct="a">
+      <p>A restaurant chain designs and conducts a survey of 500 of its customers to understand their satisfaction with a new menu. What type of data does this survey produce?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Primary data</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Secondary data</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Internal secondary data</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Commercial data</span></div>
+      </div>
+      <div class="feedback-correct">Correct. This is primary data because the restaurant chain designed and conducted the survey specifically to address its current research question about menu satisfaction. The data were collected by the researcher (or their agent) for the express purpose of the study at hand.</div>
+      <div class="feedback-incorrect">This is primary data. The restaurant chain created this survey specifically to answer its current research question about menu satisfaction. Primary data are collected by the researcher to address the problem at hand, as opposed to secondary data which already exist from a prior collection effort.</div>
+    </div>
+    <div class="quiz-question" data-correct="b">
+      <p>A new product manager at a tech company reviews last year's customer satisfaction survey results -- originally conducted by the customer experience team -- to identify feature requests for a product she is developing. What type of data is this for the product manager?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Primary data</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Secondary data</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>It depends on sample size</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>It is neither primary nor secondary</span></div>
+      </div>
+      <div class="feedback-correct">Correct. Although the satisfaction survey was primary data for the customer experience team that designed it, it is secondary data for the product manager. The distinction is based on the relationship between the data and the current research question. Because the product manager is using data that were collected for a different purpose by a different team, these are secondary data -- specifically, internal secondary data.</div>
+      <div class="feedback-incorrect">For the product manager, this is secondary data. The survey was originally designed and collected by another team for a different purpose. The primary-versus-secondary distinction depends not on the data themselves but on their relationship to the current research question. The same dataset can be primary data for the team that collected it and secondary data for anyone who uses it later for a different purpose.</div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-check-answer">Check Answer</button>
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 4.2 Advantages of Secondary Data
 
 Secondary data offer several compelling advantages that make them an indispensable starting point for virtually any research project (adapted from Zikmund et al., 2013).
@@ -102,6 +149,38 @@ Commercial sources provide proprietary data that are typically available for pur
 
 Digital and internet sources represent a rapidly growing category of secondary data. Search trend data from platforms like Google Trends reveal shifts in consumer interest over time and across geographies. Social media data, including public posts, reviews, and conversations, provide unstructured but richly informative evidence about consumer attitudes, experiences, and word-of-mouth behavior. Open data platforms, such as Data.gov, World Bank Open Data, and United Nations data portals, make vast quantities of data freely accessible for research purposes. APIs and real-time data feeds from financial markets, weather services, and other automated sources enable researchers to incorporate dynamic, up-to-the-minute information into their analyses.
 
+<div class="activity-match" data-activity-id="m4-match-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge match">Match Pairs</span>
+    <h3>Secondary Data Sources and Categories</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>Click an item on the left, then click its match on the right.</p>
+    <div class="match-container">
+      <div class="match-left">
+        <div class="match-column-label">Data Source</div>
+        <div class="match-item" data-match-id="l1" data-match-target="r1">U.S. Census Bureau</div>
+        <div class="match-item" data-match-id="l2" data-match-target="r2">Google Trends</div>
+        <div class="match-item" data-match-id="l3" data-match-target="r3">Company CRM system</div>
+        <div class="match-item" data-match-id="l4" data-match-target="r4">Nielsen PRIZM</div>
+        <div class="match-item" data-match-id="l5" data-match-target="r5">FRED (Federal Reserve Economic Data)</div>
+      </div>
+      <div class="match-right">
+        <div class="match-column-label">Source Category</div>
+        <div class="match-item" data-match-id="r3">Internal secondary data</div>
+        <div class="match-item" data-match-id="r5">Government / public data</div>
+        <div class="match-item" data-match-id="r2">Digital / internet source</div>
+        <div class="match-item" data-match-id="r1">Government / public data</div>
+        <div class="match-item" data-match-id="r4">Commercial database</div>
+      </div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 4.6 Evaluating Secondary Data Quality
 
 Not all secondary data are created equal. Before relying on any secondary source, the researcher should apply a systematic evaluation framework. Churchill and Iacobucci (2015) suggest asking:
@@ -130,6 +209,26 @@ Finally, checking for consistency with other sources serves as a validity check.
 <div class="callout callout-warning">
 <p class="callout-title">Critical Evaluation Is Essential</p>
 <p>The ease of finding data online can create a false sense of reliability. Not all data are trustworthy. Always investigate the source, methodology, and purpose behind any secondary data before incorporating them into your analysis. A rigorous researcher is a skeptical researcher.</p>
+</div>
+
+<div class="activity-scenario" data-activity-id="m4-scenario-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge scenario">Scenario</span>
+    <h3>Evaluating a Secondary Data Source</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="scenario-prompt">You are a market researcher at a health food company. You find a report titled "Organic Food Consumer Trends 2024" published by a trade association called the National Organic Producers Alliance. The report claims that 82% of American consumers plan to increase their organic food purchases in the next year. You want to use this statistic to justify a major product launch to your executive team.</div>
+    <p class="scenario-question">Which quality evaluation question should you ask FIRST and MOST critically about this data source?</p>
+    <div class="scenario-options">
+      <div class="scenario-option" data-correct="false"><span>When were the data collected? The report might be outdated.</span><div class="scenario-feedback">Timeliness is always worth checking, but the report is from 2024, so it is relatively recent. A more pressing concern exists with this particular source that could fundamentally undermine the credibility of the statistic, regardless of when it was collected.</div></div>
+      <div class="scenario-option" data-correct="true"><span>Who collected the data, and why? The National Organic Producers Alliance has a direct financial interest in promoting organic food consumption, which could bias the methodology and findings.</span><div class="scenario-feedback">Correct. The most critical question here is about potential bias. The National Organic Producers Alliance exists to promote the organic food industry. Data collected by an organization with a vested interest in a particular outcome should be scrutinized with extra care. The 82% figure may reflect biased sampling (surveying people already inclined toward organic food), leading questions, or selective reporting. Before relying on this statistic for a major business decision, you should investigate the methodology and seek corroboration from independent sources.</div></div>
+      <div class="scenario-option" data-correct="false"><span>What exactly was measured? "Plan to increase" could be defined in many ways.</span><div class="scenario-feedback">Definitional clarity is indeed important -- "plan to increase" is vague and could mean very different things. However, before even getting to definitional questions, there is a more fundamental issue with this source: the organization that produced it has a direct financial interest in presenting favorable data about organic food consumption. Bias in the source can affect every aspect of the data, including how terms are defined.</div></div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
 </div>
 
 ## 4.7 Business Databases and Digital Analytics
@@ -189,6 +288,30 @@ The annotated bibliography serves as both a record-keeping tool and a thinking t
 <p>The Jesuit intellectual tradition places great emphasis on building upon the work of those who came before. Ignatius of Loyola himself was a voracious reader who drew inspiration from the writings of saints and scholars. In research, the literature review is an act of intellectual humility---an acknowledgment that we do not start from zero, that others have thought carefully about related questions, and that our work is strengthened by engaging seriously with theirs. Skipping the literature review is not efficiency; it is arrogance.</p>
 </div>
 
+<div class="activity-sort" data-activity-id="m4-sort-1" data-points="15" data-correct-order="s1,s2,s3,s4,s5,s6,s7">
+  <div class="activity-header">
+    <span class="activity-type-badge sort">Put It In Order</span>
+    <h3>Steps in Conducting a Literature Review</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>Drag or reorder these steps into the correct sequence for conducting a systematic literature review.</p>
+    <div class="sort-items">
+      <div class="sort-item" data-sort-id="s5"><span class="sort-text">Organize findings thematically rather than source by source</span></div>
+      <div class="sort-item" data-sort-id="s2"><span class="sort-text">Search systematically using multiple databases and keywords</span></div>
+      <div class="sort-item" data-sort-id="s7"><span class="sort-text">Write the review as a coherent narrative building toward the research question</span></div>
+      <div class="sort-item" data-sort-id="s4"><span class="sort-text">Read each source critically, recording key findings and limitations</span></div>
+      <div class="sort-item" data-sort-id="s1"><span class="sort-text">Define the scope of the review (topics, time period, source types)</span></div>
+      <div class="sort-item" data-sort-id="s6"><span class="sort-text">Synthesize across the literature to identify patterns, contradictions, and gaps</span></div>
+      <div class="sort-item" data-sort-id="s3"><span class="sort-text">Evaluate source credibility, prioritizing peer-reviewed articles</span></div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-check-answer">Check Order</button>
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 4.9 Integrating Secondary Data and Literature Review into the Research Process
 
 The practical implication is clear: **before investing in primary research, exhaust secondary sources.** This principle, while simple to state, requires a disciplined and systematic approach to implement effectively.
@@ -206,6 +329,68 @@ With this foundation in place, the researcher can identify with precision what t
 The final step is to design primary research to fill the gaps that secondary data leave. Because the researcher has already exhausted secondary sources, the primary research can be tightly focused on the specific questions that remain unanswered, rather than wasting resources on information that is already available. This approach saves time, reduces cost, and produces better-informed primary research when it is ultimately needed. The result is a research program that is both efficient and thorough, building systematically from what is known toward what needs to be discovered.
 
 ---
+
+<div class="activity-flashcards" data-activity-id="m4-flash-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge flashcards">Flashcards</span>
+    <h3>Key Terms: Secondary Data and Literature Review</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="flashcard-deck">
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Primary Data</div>
+          <div class="flashcard-back">Data collected specifically to address the current research objectives. The researcher controls the questions asked, variables measured, population sampled, and time frame. Examples include surveys, experiments, interviews, and focus groups designed for the study at hand.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Secondary Data</div>
+          <div class="flashcard-back">Data that already exist, having been collected for purposes other than the current research question. Sources include government statistics, industry reports, company records, and published research. The distinction depends on the data's relationship to the current research question, not on the data themselves.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Sampling Frame</div>
+          <div class="flashcard-back">A list or device that defines the population from which a sample will be drawn for primary research. Secondary data such as demographic databases, customer lists, and market data are often used to define and construct the sampling frame.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Annotated Bibliography</div>
+          <div class="flashcard-back">A practical intermediate step in the literature review process. For each source, the researcher records a full citation, a brief summary of the study's purpose, method, and key findings, an assessment of quality and relevance, and notes on how the source relates to the current research question.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Literature Review</div>
+          <div class="flashcard-back">A systematic survey of existing scholarship on a topic, organized thematically rather than source by source. It establishes what is already known, identifies gaps in knowledge, informs methodology, builds credibility, and provides theoretical frameworks to guide the current research.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Data Quality</div>
+          <div class="flashcard-back">The fitness of secondary data for the researcher's current purpose, evaluated by asking: Who collected the data? Why were they collected? How were they collected? What was measured? When were they collected? Are they consistent with other sources? Not all secondary data are equally trustworthy.</div>
+        </div>
+      </div>
+    </div>
+    <p class="flashcard-hint">Click the card to flip it</p>
+    <div class="flashcard-nav">
+      <button class="fc-prev">Previous</button>
+      <span class="fc-counter">1 / 6</span>
+      <button class="fc-next">Next</button>
+      <button class="fc-got-it">Got It!</button>
+    </div>
+    <div class="fc-progress-info">Mastered: <span class="fc-mastered-count">0</span> / 6</div>
+  </div>
+  <div class="activity-footer"></div>
+</div>
+
+<div class="callout callout-key-concept">
+<p class="callout-title">Canvas Submission</p>
+<p>Complete all five interactive activities in this module and submit your Progress Report in Canvas. This week also includes the <strong>Secondary Data Evaluation and Annotated Bibliography</strong>: identify and evaluate three secondary data sources relevant to your research proposal, and prepare an annotated bibliography of five scholarly sources. Submit in Canvas. Post your discussion response.</p>
+</div>
 
 ## Recommended Resources
 

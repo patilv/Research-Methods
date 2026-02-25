@@ -114,6 +114,31 @@ Each of these stages will be explored in depth across the eight modules of this 
 <p>The research process is not purely linear. While steps generally proceed in sequence, findings at any stage may require revisiting earlier decisions. The hallmark of a skilled researcher is knowing when to iterate.</p>
 </div>
 
+<div class="activity-sort" data-activity-id="m1-sort-1" data-points="15" data-correct-order="s1,s2,s3,s4,s5,s6,s7,s8">
+  <div class="activity-header">
+    <span class="activity-type-badge sort">Put It In Order</span>
+    <h3>Put the Research Process in Order</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>The eight steps of the business research process must follow a logical sequence. Drag and drop these steps into the correct order from first to last.</p>
+    <div class="sort-items">
+      <div class="sort-item" data-sort-id="s5"><span class="sort-text">Determine the Sampling Plan</span></div>
+      <div class="sort-item" data-sort-id="s1"><span class="sort-text">Formulate the Problem</span></div>
+      <div class="sort-item" data-sort-id="s7"><span class="sort-text">Prepare, Analyze, and Interpret the Data</span></div>
+      <div class="sort-item" data-sort-id="s3"><span class="sort-text">Determine the Research Design</span></div>
+      <div class="sort-item" data-sort-id="s8"><span class="sort-text">Prepare the Research Report</span></div>
+      <div class="sort-item" data-sort-id="s2"><span class="sort-text">Estimate the Value of Information</span></div>
+      <div class="sort-item" data-sort-id="s6"><span class="sort-text">Collect the Data</span></div>
+      <div class="sort-item" data-sort-id="s4"><span class="sort-text">Design the Data Collection Method and Forms</span></div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-check-answer">Check Order</button>
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 1.4 Characteristics of Valuable Information
 
 Not all information is equally useful for decision-making. Research is only as valuable as the quality of the information it produces. High-quality research information exhibits several characteristics (Zikmund et al., 2013):
@@ -133,6 +158,53 @@ Beyond these properties of the information itself, the **methodology** that prod
 
 We will return to validity and reliability in much greater depth in Module 6 (Measurement and Questionnaire Design).
 
+<div class="activity-quiz" data-activity-id="m1-quiz-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge quiz">Knowledge Check</span>
+    <h3>Information Quality Check</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="quiz-question" data-correct="c">
+      <p>A marketing team collects highly accurate customer satisfaction data, but the survey was conducted two years ago and market conditions have changed significantly. Which characteristic of valuable information is most clearly lacking?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Relevance</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Quality</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Timeliness</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Completeness</span></div>
+      </div>
+      <div class="feedback-correct">Correct. Timeliness means the data must be current enough to be actionable. Even accurate data become unreliable for decision-making when market conditions have shifted since the data were collected.</div>
+      <div class="feedback-incorrect">Not quite. While the data may be accurate (quality) and relevant to the topic, the key issue here is timeliness -- the data are outdated and no longer reflect current market conditions, making them unsuitable for guiding present-day decisions.</div>
+    </div>
+    <div class="quiz-question" data-correct="b">
+      <p>A company surveys only its most loyal customers about a new product idea and receives overwhelmingly positive feedback. However, the survey excludes casual buyers and non-customers. Which characteristic is most compromised?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Timeliness</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Completeness</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Relevance</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Quality</span></div>
+      </div>
+      <div class="feedback-correct">Correct. Completeness means having the right amount of information to make a well-informed decision. By excluding casual buyers and non-customers, the company has an incomplete picture that could lead to an overly optimistic assessment of the product's market potential.</div>
+      <div class="feedback-incorrect">The main issue here is completeness. The information gathered only reflects the views of loyal customers, missing perspectives from casual buyers and non-customers. A complete picture would include data from the full range of potential market segments.</div>
+    </div>
+    <div class="quiz-question" data-correct="d">
+      <p>A customer satisfaction scale produces nearly identical scores every time it is administered to the same group under the same conditions, but it actually measures brand awareness rather than satisfaction. Which statement best describes this instrument?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>It is both valid and reliable</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>It is valid but not reliable</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>It is neither valid nor reliable</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>It is reliable but not valid</span></div>
+      </div>
+      <div class="feedback-correct">Correct. The instrument is reliable because it produces consistent results across repeated administrations. However, it is not valid because it measures brand awareness instead of the intended construct -- customer satisfaction. As the bathroom scale analogy illustrates, a measure can be consistent (reliable) while consistently measuring the wrong thing (invalid).</div>
+      <div class="feedback-incorrect">Remember the bathroom scale analogy from the module: a scale that always reads five pounds too heavy is reliable (consistent) but not valid (accurate). This instrument produces consistent scores (reliable) but measures the wrong construct (not valid). Reliability is necessary but not sufficient for validity.</div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-check-answer">Check Answer</button>
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 1.5 Basic vs. Applied Research
 
 Business research can be categorized along a spectrum from basic to applied:
@@ -149,6 +221,26 @@ Business research can be categorized along a spectrum from basic to applied:
 | **Actionability** | Immediately actionable | May eventually inform practice |
 
 In MBA and MSBA programs, the emphasis is on **applied research**---the kind of research that directly supports business decisions. However, understanding basic research is important because applied research builds upon foundations established by basic research. The statistical techniques you will learn in Module 8, for instance, were developed through decades of basic research in statistics and psychometrics. The theories of consumer behavior that inform marketing research originated in basic research conducted by psychologists and economists. In practice, the boundary between basic and applied research is often blurry: a study that begins as an exploration of a theoretical question may yield insights with immediate practical applications, and a study commissioned to solve a specific business problem may contribute to broader theoretical understanding. The most impactful research often sits at the intersection of the two.
+
+<div class="activity-scenario" data-activity-id="m1-scenario-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge scenario">Scenario</span>
+    <h3>Basic or Applied?</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="scenario-prompt">A university professor in the psychology department conducts a series of experiments to understand how anchoring bias -- the tendency for people to rely too heavily on the first piece of information they encounter -- affects the way consumers perceive prices. The professor has no specific client or business decision in mind. The goal is to publish the findings in an academic journal and contribute to the broader theoretical understanding of cognitive biases in economic behavior.</div>
+    <p class="scenario-question">What type of research is this professor conducting?</p>
+    <div class="scenario-options">
+      <div class="scenario-option" data-correct="true"><span>Basic research -- the goal is to expand general knowledge about cognitive biases without a specific business decision in mind</span><div class="scenario-feedback">Correct. This is basic (or fundamental/pure) research. The professor is motivated by the desire to expand general knowledge about how anchoring bias operates in price perception. There is no specific organization commissioning the study and no immediate business decision to be made. The findings may eventually inform business pricing strategies, but that is not the immediate objective. The audience is the academic community, and the timeline is long-term.</div></div>
+      <div class="scenario-option" data-correct="false"><span>Applied research -- the findings could eventually help businesses set prices more effectively</span><div class="scenario-feedback">While it is true that the findings could eventually inform business practice, this does not make it applied research. The defining characteristic of applied research is that it is conducted to address a specific decision for a specific organization. Here, there is no commissioning organization and no immediate business problem. The potential for future practical application does not change the fundamental nature of the research.</div></div>
+      <div class="scenario-option" data-correct="false"><span>It is both basic and applied research equally</span><div class="scenario-feedback">Although the boundary between basic and applied research can be blurry, this scenario clearly falls on the basic research side. The professor has no specific client, no organizational problem to solve, and no immediate actionable purpose. The study is designed to expand theoretical knowledge for the academic community. If a company later commissioned a study using these findings to optimize its own pricing, that follow-up study would be applied research.</div></div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
 
 ## 1.6 Who Conducts Business Research?
 
@@ -217,6 +309,40 @@ The third principle is **justice**, which demands that the burdens and benefits 
 
 We will revisit ethical considerations throughout this course, as ethics is not a standalone topic but a thread that runs through every stage of the research process.
 
+<div class="activity-match" data-activity-id="m1-match-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge match">Match Pairs</span>
+    <h3>Match the Ethics Concepts</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>Click an item on the left, then click its match on the right.</p>
+    <div class="match-container">
+      <div class="match-left">
+        <div class="match-column-label">Concepts</div>
+        <div class="match-item" data-match-id="l1" data-match-target="r1">Informed Consent</div>
+        <div class="match-item" data-match-id="l2" data-match-target="r2">Confidentiality</div>
+        <div class="match-item" data-match-id="l3" data-match-target="r3">Anonymity</div>
+        <div class="match-item" data-match-id="l4" data-match-target="r4">Beneficence</div>
+        <div class="match-item" data-match-id="l5" data-match-target="r5">Justice</div>
+        <div class="match-item" data-match-id="l6" data-match-target="r6">Respect for Persons</div>
+      </div>
+      <div class="match-right">
+        <div class="match-column-label">Descriptions</div>
+        <div class="match-item" data-match-id="r4">The obligation to minimize potential harms and maximize potential benefits of the research</div>
+        <div class="match-item" data-match-id="r6">Treating individuals as autonomous agents capable of making their own decisions about participation</div>
+        <div class="match-item" data-match-id="r1">Ensuring participation is voluntary and that participants understand the nature and purpose of the research</div>
+        <div class="match-item" data-match-id="r5">The requirement that burdens and benefits of research be distributed fairly across populations</div>
+        <div class="match-item" data-match-id="r3">A condition in which even the researchers themselves cannot link responses to specific individuals</div>
+        <div class="match-item" data-match-id="r2">Individual responses are identifiable to the researcher but protected from unauthorized disclosure</div>
+      </div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 1.8 The Value of Information
 
 Before committing resources to research, a prudent manager should ask: **Is the information worth the cost of obtaining it?** This is the essence of Step 2 in the research process---estimating the value of information.
@@ -244,6 +370,68 @@ This module has established the foundations: why research matters, what it is, h
 - **Module 8**: Data analysis, interpretation, and reporting
 
 Each module builds on the previous ones. By the end of the course, you will have the methodological toolkit to design, evaluate, and conduct business research at a professional level.
+
+<div class="activity-flashcards" data-activity-id="m1-flash-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge flashcards">Flashcards</span>
+    <h3>Key Terms from Module 1</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="flashcard-deck">
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Business Research</div>
+          <div class="flashcard-back">The systematic and objective process of generating information to aid in making business decisions. It encompasses the entire sequence from problem identification through data analysis and reporting.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Validity</div>
+          <div class="flashcard-back">The extent to which the research actually measures what it claims to measure. Operates at the level of individual measures and the study as a whole. Types include content validity, criterion validity, and construct validity.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Reliability</div>
+          <div class="flashcard-back">The consistency and reproducibility of the research findings. A reliable measure produces similar results when applied repeatedly under similar conditions. Necessary but not sufficient for validity.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Applied Research</div>
+          <div class="flashcard-back">Research conducted to address a specific decision for a specific organization. The findings are immediately actionable, typically short-term, and the audience is the commissioning organization.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Informed Consent</div>
+          <div class="flashcard-back">The ethical requirement that research participation be both informed (the participant understands the nature and purpose of the research) and voluntary (the participant freely chooses to take part without coercion or undue inducement).</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Belmont Report</div>
+          <div class="flashcard-back">A foundational 1979 document in research ethics that articulates three core principles: respect for persons, beneficence, and justice. Produced by the National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research.</div>
+        </div>
+      </div>
+    </div>
+    <p class="flashcard-hint">Click the card to flip it</p>
+    <div class="flashcard-nav">
+      <button class="fc-prev">Previous</button>
+      <span class="fc-counter">1 / 6</span>
+      <button class="fc-next">Next</button>
+      <button class="fc-got-it">Got It!</button>
+    </div>
+    <div class="fc-progress-info">Mastered: <span class="fc-mastered-count">0</span> / 6</div>
+  </div>
+  <div class="activity-footer"></div>
+</div>
+
+<div class="callout callout-key-concept">
+<p class="callout-title">Canvas Submission</p>
+<p>Complete all five interactive activities in this module, then visit the <a href="/Research-Methods/progress/">My Progress</a> page to generate your Progress Report. Submit a screenshot or PDF of your Progress Report in the Module 1 Activities assignment on Canvas. Also post your response to at least one discussion question in Canvas Discussions.</p>
+</div>
 
 ---
 

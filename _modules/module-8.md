@@ -87,6 +87,53 @@ The complete hypothesis testing procedure can be organized into ten sequential s
 
 The choice of statistical test and the determination of the critical value depend on three interrelated criteria that the researcher must specify before conducting the analysis. The **significance level (α)** determines how much Type I error risk is acceptable; a lower alpha requires stronger evidence to reject the null hypothesis, resulting in a larger critical value. The **degrees of freedom**, which are related to the sample size and the number of groups or categories being analyzed, determine the precise shape of the sampling distribution used to evaluate the test statistic; as degrees of freedom increase, the t-distribution, for example, approaches the standard normal distribution. The **directionality** of the test -- whether it is one-tailed or two-tailed -- determines whether the rejection region is concentrated in one tail or split between both tails of the distribution. A one-tailed test should be used only when theory or strong prior evidence provides a clear directional prediction, because using a one-tailed test without such justification increases the risk of missing effects in the unpredicted direction.
 
+<div class="activity-quiz" data-activity-id="m8-quiz-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge quiz">Knowledge Check</span>
+    <h3>Hypothesis Testing Fundamentals</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="quiz-question" data-correct="a">
+      <p>A researcher concludes that a new training program improves employee productivity, but in reality the program has no effect. What type of error has occurred?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Type I error -- rejecting the null hypothesis when it is actually true</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Type II error -- failing to reject the null hypothesis when it is actually false</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Sampling error -- the sample does not represent the population</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>No error -- the researcher made a correct decision</span></div>
+      </div>
+      <div class="feedback-correct">Correct. This is a Type I error (also called a false positive). The null hypothesis (that the program has no effect) is actually true, but the researcher incorrectly rejected it based on the sample data. The probability of this error is controlled by the significance level (alpha).</div>
+      <div class="feedback-incorrect">This is a Type I error. The researcher rejected the null hypothesis ("no effect") when it was actually true -- concluding the program works when it does not. A Type II error would be the opposite: failing to detect a real effect that exists.</div>
+    </div>
+    <div class="quiz-question" data-correct="c">
+      <p>What does setting the significance level (alpha) at 0.05 mean in practice?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>There is a 5% chance that the null hypothesis is true</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>The study will produce accurate results 95% of the time</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>The researcher accepts a 5% risk of rejecting the null hypothesis when it is actually true</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Only 5% of the sample data will contain errors</span></div>
+      </div>
+      <div class="feedback-correct">Correct. Alpha is the maximum probability of a Type I error that the researcher is willing to tolerate. Setting alpha at 0.05 means accepting a 5% chance of incorrectly concluding an effect exists when, in fact, the null hypothesis is true.</div>
+      <div class="feedback-incorrect">The significance level (alpha) represents the probability of committing a Type I error -- rejecting a true null hypothesis. At alpha = 0.05, the researcher accepts a 5% risk of a false positive. It does not describe the probability that the null is true or the overall accuracy of the study.</div>
+    </div>
+    <div class="quiz-question" data-correct="d">
+      <p>A researcher obtains a p-value of 0.03. Using a significance level of 0.05, what is the correct interpretation?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>There is a 3% chance that the alternative hypothesis is true</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>The null hypothesis has been proven false with 97% certainty</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>The result is not statistically significant because 0.03 is a small number</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>The result is statistically significant; the probability of observing data this extreme under the null hypothesis is only 3%</span></div>
+      </div>
+      <div class="feedback-correct">Correct. Because the p-value (0.03) is less than alpha (0.05), the result is statistically significant, and the researcher rejects the null hypothesis. The p-value means that if the null hypothesis were true, there would be only a 3% chance of observing a test statistic as extreme as the one obtained.</div>
+      <div class="feedback-incorrect">Since 0.03 is less than the significance level of 0.05, the result is statistically significant, leading to rejection of the null hypothesis. The p-value tells us: if the null hypothesis were true, there would be only a 3% chance of observing results this extreme. It does not state the probability that either hypothesis is true.</div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-check-answer">Check Answer</button>
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 8.3 Chi-Square Tests
 
 The **chi-square (χ²) test** is used when the variables being analyzed are **nominal** (categorical). Unlike the t-test and ANOVA, which compare means of interval or ratio variables, the chi-square test works with frequency counts -- the number of observations that fall into each category. It compares the frequencies that were actually observed in the data to the frequencies that would be expected under the null hypothesis, and it evaluates whether the discrepancy between observed and expected frequencies is large enough to be statistically significant.
@@ -149,6 +196,26 @@ The expected frequency for each cell represents what we would observe if the nul
 <p>H₀: Grade and class section are not related. Hₐ: Grade and class section are related.</p>
 <p>After computing expected frequencies and the chi-square statistic: χ² = 5.136, df = 4, α = 0.05.</p>
 <p>Critical value from chi-square table: 9.49. Since 5.136 < 9.49, we <strong>fail to reject H₀</strong>. There is insufficient evidence to conclude that grade distributions differ between sections.</p>
+</div>
+
+<div class="activity-scenario" data-activity-id="m8-scenario-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge scenario">Scenario</span>
+    <h3>Choosing the Right Statistical Test</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="scenario-prompt">A retail company has collected data from a customer survey. They want to answer the following question: "Do customers who shop in-store, online, or through the mobile app differ in their average spending per transaction?" The spending data are measured in dollars (a continuous, ratio-level variable), and there are three distinct shopping channel groups.</div>
+    <p class="scenario-question">Which statistical test should the analyst use?</p>
+    <div class="scenario-options">
+      <div class="scenario-option" data-correct="false"><span>Chi-square test of independence, because there are three groups to compare</span><div class="scenario-feedback">The chi-square test is designed for categorical (nominal) data -- it compares observed and expected frequency counts. Here, the dependent variable is spending in dollars, which is a continuous ratio-level variable. The number of groups does not determine whether chi-square is appropriate; the type of data does.</div></div>
+      <div class="scenario-option" data-correct="false"><span>Independent-samples t-test, because we are comparing group means</span><div class="scenario-feedback">The t-test does compare group means, but it is limited to comparing exactly two groups. With three groups (in-store, online, mobile app), running multiple t-tests would inflate the Type I error rate. A different test is needed when comparing means across three or more groups.</div></div>
+      <div class="scenario-option" data-correct="true"><span>One-way ANOVA, because we are comparing means of a continuous variable across three groups</span><div class="scenario-feedback">Correct. One-way ANOVA is designed for exactly this situation: comparing means of a continuous (interval or ratio) variable across three or more independent groups. It tests all group means simultaneously in a single analysis, maintaining the overall Type I error rate at the chosen significance level. If the ANOVA result is significant, post-hoc tests can then identify which specific pairs of groups differ.</div></div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
 </div>
 
 ## 8.4 t-Tests
@@ -247,6 +314,36 @@ A significant ANOVA result tells us that at least one group mean differs from th
 
 Several post-hoc procedures are available, each reflecting a different balance between statistical power and protection against Type I error. **Tukey's Honestly Significant Difference (HSD)** test is among the most widely used; it compares all possible pairs of means and is appropriate when the researcher wants to explore all pairwise differences with equal interest. **Bonferroni's correction** divides the desired significance level by the number of comparisons, providing a simple and conservative adjustment that can be applied to any type of test. **Scheffe's method** is the most conservative of the common post-hoc procedures, making it appropriate when the researcher wants maximum protection against false positives, though at the cost of reduced power to detect genuine differences. The choice among these procedures depends on the number of groups, the research priorities (whether the researcher is more concerned about missing real differences or about claiming false ones), and the conventions of the discipline. In the price experiment above, for instance, a Tukey HSD test would reveal whether the sales difference between the 39-cent and 49-cent conditions is significant, whether the 39-cent and 44-cent conditions differ, and whether the 44-cent and 49-cent conditions differ -- questions that the omnibus ANOVA F-test cannot answer on its own.
 
+<div class="activity-match" data-activity-id="m8-match-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge match">Match Pairs</span>
+    <h3>Match the Statistical Test to Its Use Case</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>Click an item on the left, then click its match on the right.</p>
+    <div class="match-container">
+      <div class="match-left">
+        <div class="match-column-label">Statistical Test</div>
+        <div class="match-item" data-match-id="l1" data-match-target="r1">Chi-Square Goodness of Fit</div>
+        <div class="match-item" data-match-id="l2" data-match-target="r2">Chi-Square Test of Independence</div>
+        <div class="match-item" data-match-id="l3" data-match-target="r3">Independent-Samples t-Test</div>
+        <div class="match-item" data-match-id="l4" data-match-target="r4">One-Way ANOVA</div>
+      </div>
+      <div class="match-right">
+        <div class="match-column-label">Use Case</div>
+        <div class="match-item" data-match-id="r3">Testing whether male employees have a different average salary than female employees</div>
+        <div class="match-item" data-match-id="r1">Testing whether customer complaints are equally distributed across four product lines</div>
+        <div class="match-item" data-match-id="r4">Comparing average customer satisfaction scores across five regional offices</div>
+        <div class="match-item" data-match-id="r2">Determining whether there is a relationship between gender and preferred payment method (cash, credit, or digital)</div>
+      </div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 8.6 Cross-Tabulation and Association
 
 **Cross-tabulation** (also called a contingency table) is one of the most common and most useful analytical techniques in business research. It displays the joint distribution of two categorical variables in a table format, allowing visual and statistical assessment of their relationship. Despite its simplicity, cross-tabulation is a remarkably powerful tool that can reveal patterns, test hypotheses, and communicate findings to audiences of all levels of statistical sophistication.
@@ -265,6 +362,53 @@ A nationwide study of 1,402 adults cross-tabulated confidence in television inst
 The chi-square test of independence can then be applied to determine whether confidence level is statistically associated with income level. By examining the column percentages -- the percentage of respondents at each income level who report "a great deal," "only some," or "hardly any" confidence -- the researcher can identify the direction and nature of any association. In this example, the proportion reporting "a great deal" of confidence declines from 18.7% among those earning under $10K to 9.7% among those earning over $20K, suggesting a negative relationship between income and confidence in television.
 
 Cross-tabulations are valuable for several reasons that extend well beyond their role as a vehicle for the chi-square test. They are easy to construct, requiring no more than basic counting and percentage calculations, and they are easy to interpret -- a well-labeled contingency table communicates its message almost instantly to readers who may have little statistical training. Cross-tabulations have a unique ability to reveal patterns and relationships that summary statistics may obscure; a comparison of means, for instance, might show no overall difference between two groups while masking important differences in the distributions that a cross-tabulation would make visible. They also serve as a natural foundation for more complex multivariate analyses, helping the researcher identify the variables and relationships that warrant deeper investigation. Finally, cross-tabulations communicate findings with unusual effectiveness to non-technical audiences, including the executives and decision-makers who are the ultimate consumers of most business research. A table showing that 72% of repeat customers rate the service as "excellent" compared to 45% of first-time customers tells a compelling story that requires no statistical sophistication to understand.
+
+<div class="activity-quiz" data-activity-id="m8-quiz-2" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge quiz">Knowledge Check</span>
+    <h3>Cross-Tabulations and Choosing the Right Test</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="quiz-question" data-correct="b">
+      <p>A cross-tabulation shows that 72% of repeat customers rate service as "excellent" compared to 45% of first-time customers. What statistical test would you use to determine whether this difference is statistically significant?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Independent-samples t-test</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Chi-square test of independence</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>One-way ANOVA</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>One-sample t-test</span></div>
+      </div>
+      <div class="feedback-correct">Correct. Both variables are categorical: customer type (repeat vs. first-time) and service rating (excellent vs. other). The chi-square test of independence is the appropriate test for determining whether two categorical variables are related.</div>
+      <div class="feedback-incorrect">Since both variables here are categorical (customer type and rating category), the chi-square test of independence is the correct choice. The t-test and ANOVA require a continuous (interval/ratio) dependent variable.</div>
+    </div>
+    <div class="quiz-question" data-correct="c">
+      <p>A researcher wants to test whether average monthly spending (measured in dollars) differs between three customer segments: budget, standard, and premium. Which test is appropriate?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Chi-square goodness of fit</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Independent-samples t-test</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>One-way ANOVA</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Chi-square test of independence</span></div>
+      </div>
+      <div class="feedback-correct">Correct. When comparing means of a continuous variable (dollars spent) across three or more groups, one-way ANOVA is the appropriate test. It tests whether at least one group mean differs significantly from the others while controlling the overall Type I error rate.</div>
+      <div class="feedback-incorrect">With three groups and a continuous dependent variable (spending in dollars), one-way ANOVA is the right choice. A t-test only works for two groups, and chi-square tests are for categorical data, not continuous measurements.</div>
+    </div>
+    <div class="quiz-question" data-correct="a">
+      <p>What is a key advantage of cross-tabulation as an analytical technique?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>It can reveal patterns in the joint distribution of two variables that summary statistics like means might obscure</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>It is the only technique that can establish causation between two variables</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>It eliminates the need for statistical testing because patterns are always visually obvious</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>It works only with continuous variables measured at the ratio level</span></div>
+      </div>
+      <div class="feedback-correct">Correct. One of the key strengths of cross-tabulation is its ability to show the full joint distribution of two variables, revealing patterns that aggregate statistics (like a comparison of means) might miss. It also communicates findings effectively to non-technical audiences.</div>
+      <div class="feedback-incorrect">Cross-tabulations are valued for their ability to reveal distributional patterns that summary statistics can mask. They do not establish causation, they still benefit from statistical testing (like chi-square), and they are designed for categorical variables, not continuous ones.</div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-check-answer">Check Answer</button>
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
 
 ## 8.7 Selecting the Right Test
 
@@ -347,6 +491,68 @@ Finally, in **Module 8**, we have addressed the analysis, interpretation, and co
 Each stage of this process depends on the ones before it. A poorly formulated problem leads to a misguided design. A flawed questionnaire produces unreliable data. A biased sample undermines even the best analysis. And a brilliant analysis that is poorly communicated fails to influence the decisions it was designed to inform. The research process is a chain, and its strength depends on its weakest link.
 
 The competencies you have developed in this course -- critical thinking about evidence, methodological rigor, ethical sensitivity, and clear communication -- will serve you throughout your career, whether you commission research, conduct it yourself, or evaluate research presented by others. In a business environment increasingly saturated with data, the ability to distinguish between sound evidence and superficial analysis, between genuine insights and statistical artifacts, and between honest reporting and misleading spin is not just a professional advantage -- it is a professional responsibility. The methods and principles you have studied here provide the foundation for exercising that responsibility with competence, integrity, and purpose.
+
+<div class="activity-flashcards" data-activity-id="m8-flash-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge flashcards">Flashcards</span>
+    <h3>Key Statistical Analysis Terms</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="flashcard-deck">
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Null Hypothesis (H0)</div>
+          <div class="flashcard-back">A statement of "no effect," "no difference," or "no relationship" that is presumed true until sufficient evidence from sample data convinces the researcher to reject it. It serves as the default position in hypothesis testing.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Type I Error</div>
+          <div class="flashcard-back">Rejecting the null hypothesis when it is actually true -- concluding that an effect or difference exists when it does not. The probability of committing this error is denoted by alpha and is controlled by the significance level.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Type II Error</div>
+          <div class="flashcard-back">Failing to reject the null hypothesis when it is actually false -- missing a real effect or difference that genuinely exists. The probability of this error is denoted by beta, and it is influenced by sample size, effect size, and the significance level.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">p-value</div>
+          <div class="flashcard-back">The probability of obtaining a test statistic as extreme as (or more extreme than) the one observed, assuming the null hypothesis is true. A small p-value (typically below 0.05) indicates strong evidence against the null hypothesis.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Chi-Square Test</div>
+          <div class="flashcard-back">A statistical test used with nominal (categorical) data that compares observed frequencies to expected frequencies. It comes in two variants: the goodness of fit test (one variable vs. a hypothesized distribution) and the test of independence (relationship between two categorical variables).</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">ANOVA (Analysis of Variance)</div>
+          <div class="flashcard-back">A statistical technique for comparing means across three or more groups simultaneously. It decomposes total variability into between-group and within-group components and uses the F-ratio to test whether group means differ significantly, avoiding the inflated Type I error that would result from multiple t-tests.</div>
+        </div>
+      </div>
+    </div>
+    <p class="flashcard-hint">Click the card to flip it</p>
+    <div class="flashcard-nav">
+      <button class="fc-prev">Previous</button>
+      <span class="fc-counter">1 / 6</span>
+      <button class="fc-next">Next</button>
+      <button class="fc-got-it">Got It!</button>
+    </div>
+    <div class="fc-progress-info">Mastered: <span class="fc-mastered-count">0</span> / 6</div>
+  </div>
+  <div class="activity-footer"></div>
+</div>
+
+<div class="callout callout-key-concept">
+<p class="callout-title">Canvas Submission</p>
+<p>Complete all five interactive activities in this module and submit your Progress Report in Canvas. This week includes the <strong>Data Analysis Exercise</strong>: apply appropriate statistical tests to a provided dataset and interpret the results. Submit your <strong>Final Research Proposal</strong> incorporating all milestones and revisions. Submit your <strong>Course Reflection</strong> connecting your learning to professional practice.</p>
+</div>
 
 ---
 

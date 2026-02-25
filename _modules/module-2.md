@@ -81,6 +81,31 @@ A **decision statement** is a written expression of the key question or question
 
 **Research objectives** are statements, in as precise terminology as possible, of what information is needed to address the decision statement. They translate the manager's question into the researcher's language, specifying the exact information that the study must produce. Research objectives should be framed so that the information obtained will directly satisfy the research purpose---that is, each objective should connect clearly to the decision at hand. If an objective cannot be linked to a specific aspect of the decision, it may be extraneous and should be reconsidered. Well-crafted research objectives are the bridge between the problem as the manager understands it and the study as the researcher designs it.
 
+<div class="activity-sort" data-activity-id="m2-sort-1" data-points="15" data-correct-order="s1,s2,s3,s4,s5,s6,s7,s8">
+  <div class="activity-header">
+    <span class="activity-type-badge sort">Put It In Order</span>
+    <h3>Problem Formulation Steps</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>Arrange the eight steps of the problem formulation process in the correct sequence from first to last.</p>
+    <div class="sort-items">
+      <div class="sort-item" data-sort-id="s6"><span class="sort-text">State the decision statement</span></div>
+      <div class="sort-item" data-sort-id="s3"><span class="sort-text">Identify key problems</span></div>
+      <div class="sort-item" data-sort-id="s8"><span class="sort-text">Develop hypotheses</span></div>
+      <div class="sort-item" data-sort-id="s1"><span class="sort-text">Detect symptoms</span></div>
+      <div class="sort-item" data-sort-id="s5"><span class="sort-text">Conduct exploratory research (if needed)</span></div>
+      <div class="sort-item" data-sort-id="s7"><span class="sort-text">State the research objectives</span></div>
+      <div class="sort-item" data-sort-id="s4"><span class="sort-text">Define the problem precisely</span></div>
+      <div class="sort-item" data-sort-id="s2"><span class="sort-text">Analyze the situation</span></div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-check-answer">Check Order</button>
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 2.4 From Decision Statements to Research Objectives
 
 The relationship between decision statements and research objectives is one of translation: moving from the language of management to the language of research. Consider these examples (adapted from Zikmund et al., 2013):
@@ -95,6 +120,36 @@ The relationship between decision statements and research objectives is one of t
 Notice that the decision statement frames the **management problem** (what the manager wants to do), while the research objectives frame the **information needed** to make that decision. The research objective must be specific enough to guide the design of the study. A vague objective like "learn about our customers" provides no direction; a precise objective like "determine the percentage of current customers who would switch to a competitor if our price increased by 10%" tells the researcher exactly what to measure, whom to study, and what kind of data to collect.
 
 The translation from decision statement to research objective is rarely mechanical. It requires the researcher to think carefully about what information, if obtained, would actually help the decision-maker choose a course of action. This often involves asking probing questions: What would you do differently if you knew X? What information would change your mind? What are the specific alternatives you are choosing among? These questions help ensure that the research objectives are not just intellectually interesting but practically useful.
+
+<div class="activity-match" data-activity-id="m2-match-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge match">Match Pairs</span>
+    <h3>Decision Statements to Research Objectives</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <p>Click an item on the left, then click its match on the right.</p>
+    <div class="match-container">
+      <div class="match-left">
+        <div class="match-column-label">Decision Statements</div>
+        <div class="match-item" data-match-id="l1" data-match-target="r1">Develop a package for a new product</div>
+        <div class="match-item" data-match-id="l2" data-match-target="r2">Increase store traffic</div>
+        <div class="match-item" data-match-id="l3" data-match-target="r3">Increase market penetration by opening new stores</div>
+        <div class="match-item" data-match-id="l4" data-match-target="r4">Decide which merchandise will be available online</div>
+      </div>
+      <div class="match-right">
+        <div class="match-column-label">Research Objectives</div>
+        <div class="match-item" data-match-id="r3">Evaluate prospective locations based on demographic and competitive data</div>
+        <div class="match-item" data-match-id="r1">Evaluate consumer response to alternative package designs</div>
+        <div class="match-item" data-match-id="r4">Determine consumers' confidence in purchasing different product categories without physical inspection</div>
+        <div class="match-item" data-match-id="r2">Measure the current image of the store and identify factors driving foot traffic</div>
+      </div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
 
 ## 2.5 Hypothesis Development
 
@@ -122,6 +177,53 @@ A well-formulated hypothesis has several characteristics that distinguish it fro
 <li><strong>Alternative hypothesis (H₁ or Hₐ)</strong>: The proposition the researcher seeks evidence for—that an effect, difference, or relationship does exist</li>
 </ul>
 <p>For example: H₀: Average customer satisfaction does not differ between Store A and Store B. Hₐ: Average customer satisfaction differs between Store A and Store B.</p>
+</div>
+
+<div class="activity-quiz" data-activity-id="m2-quiz-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge quiz">Knowledge Check</span>
+    <h3>Hypothesis Fundamentals</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="quiz-question" data-correct="b">
+      <p>A researcher states: "There is no difference in employee productivity between those who work remotely and those who work in the office." What type of hypothesis is this?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Alternative hypothesis</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Null hypothesis</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>Decision statement</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Research objective</span></div>
+      </div>
+      <div class="feedback-correct">Correct. The null hypothesis (H0) is the default assumption that there is no effect, no difference, or no relationship. This statement asserts no difference in productivity between the two groups, which is exactly what a null hypothesis does.</div>
+      <div class="feedback-incorrect">This is a null hypothesis (H0). The null hypothesis represents the default assumption -- typically that there is no effect, no difference, or no relationship between variables. Since this statement claims there is no difference in productivity between remote and office workers, it is the null hypothesis. The alternative hypothesis would state that a difference does exist.</div>
+    </div>
+    <div class="quiz-question" data-correct="c">
+      <p>Which of the following is the best example of a well-formulated hypothesis?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>Marketing affects sales somehow</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>Our company should invest more in customer service</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>A 15% increase in digital advertising spend will increase online sales by at least 5% within 90 days</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>Customers prefer good products over bad products</span></div>
+      </div>
+      <div class="feedback-correct">Correct. A well-formulated hypothesis must be specific (it states a clear expected relationship between identified variables), testable (it can be confirmed or disconfirmed with empirical data), and grounded in theory or prior research. This hypothesis specifies the exact variables, the expected direction and magnitude of the relationship, and a timeframe -- all of which make it directly testable.</div>
+      <div class="feedback-incorrect">The correct answer is C. A well-formulated hypothesis must be specific, testable, and grounded. Option A is too vague -- it does not specify the direction or magnitude of the relationship. Option B is a recommendation, not a testable proposition. Option D is trivially true and not meaningfully testable. Only option C states a clear, specific, and testable prediction with identified variables and a measurable outcome.</div>
+    </div>
+    <div class="quiz-question" data-correct="a">
+      <p>In formal hypothesis testing, the researcher collects data to evaluate the hypotheses. Which statement best describes the relationship between the null and alternative hypotheses?</p>
+      <div class="quiz-options">
+        <div class="quiz-option" data-value="a"><span class="option-marker">A</span><span>The researcher seeks evidence to reject the null hypothesis in favor of the alternative hypothesis</span></div>
+        <div class="quiz-option" data-value="b"><span class="option-marker">B</span><span>The researcher seeks evidence to confirm the null hypothesis</span></div>
+        <div class="quiz-option" data-value="c"><span class="option-marker">C</span><span>The null and alternative hypotheses make the same prediction but use different terminology</span></div>
+        <div class="quiz-option" data-value="d"><span class="option-marker">D</span><span>The alternative hypothesis is always the default assumption</span></div>
+      </div>
+      <div class="feedback-correct">Correct. In hypothesis testing, the null hypothesis serves as the default assumption (no effect, no difference, no relationship), and the researcher collects data to determine whether there is sufficient evidence to reject the null hypothesis in favor of the alternative hypothesis, which proposes that an effect, difference, or relationship does exist.</div>
+      <div class="feedback-incorrect">The correct answer is A. The null hypothesis (H0) is the default assumption -- typically that there is no effect or no difference. The alternative hypothesis (H1 or Ha) is the proposition the researcher seeks evidence for. The researcher collects data to determine whether there is enough evidence to reject the null hypothesis in favor of the alternative. The null hypothesis is the default, not the alternative.</div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-check-answer">Check Answer</button>
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
 </div>
 
 ## 2.6 The Research Request: A Six-Part Framework
@@ -200,6 +302,26 @@ Setting clear boundaries prevents scope creep---the tendency for research projec
 <p>Problem formulation is inherently an act of framing: what we choose to study—and what we choose not to study—reflects our values and priorities. The Jesuit tradition encourages us to ask not only "What is the most profitable question?" but also "What is the most important question?" Sometimes the most impactful research addresses the needs of underserved stakeholders, marginalized communities, or overlooked dimensions of a problem. <em>Magis</em>—the pursuit of the greater good—challenges us to formulate problems that matter.</p>
 </div>
 
+<div class="activity-scenario" data-activity-id="m2-scenario-1" data-points="15">
+  <div class="activity-header">
+    <span class="activity-type-badge scenario">Scenario</span>
+    <h3>Spot the Problem Formulation Pitfall</h3>
+    <span class="activity-points-badge">+15 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="scenario-prompt">A mid-sized retail chain has seen its customer satisfaction scores drop by 12% over the past quarter. The VP of Operations immediately tells the research team: "Our prices are too high -- run a survey to find out how much we need to cut prices to get satisfaction back up." The research team begins designing a study focused exclusively on price sensitivity and willingness to pay. No exploratory research is conducted, no background investigation is performed, and no alternative explanations are considered. Meanwhile, a new competitor has opened stores in the same trade areas, offering a superior in-store experience with modern fixtures and faster checkout technology.</div>
+    <p class="scenario-question">Which common pitfall in problem formulation is most clearly illustrated in this scenario?</p>
+    <div class="scenario-options">
+      <div class="scenario-option" data-correct="false"><span>Defining the problem too broadly -- the VP should have asked a more general question about the business</span><div class="scenario-feedback">Actually, the problem here is not that the question is too broad. The VP has asked a very specific question -- but it is the wrong question. The issue is that the research team accepted the VP's framing without questioning it or investigating whether prices are actually the root cause of the satisfaction decline.</div></div>
+      <div class="scenario-option" data-correct="true"><span>Accepting the client's initial framing uncritically -- the research team did not question whether high prices are actually the cause of declining satisfaction</span><div class="scenario-feedback">Correct. This is a classic example of accepting the client's initial framing uncritically. The VP assumed that prices are the problem, but the real cause may be the new competitor's superior in-store experience. The research team's job is not simply to execute the initial request but to probe, question assumptions, and conduct preliminary investigation. By jumping directly to a price sensitivity study without considering alternative explanations, the team risks producing findings that are technically competent but strategically irrelevant -- a study that answers the wrong question.</div></div>
+      <div class="scenario-option" data-correct="false"><span>Confusing symptoms with problems -- the 12% drop in satisfaction scores is a symptom, not the underlying problem</span><div class="scenario-feedback">You have identified a real issue in this scenario -- the satisfaction drop is indeed a symptom, not the root cause. However, the most prominent pitfall here is that the research team accepted the VP's diagnosis (prices are too high) without question. The VP has already jumped past the symptom to an assumed cause, and the research team failed to challenge that assumption. The team should have investigated multiple potential causes before designing a study around a single explanation.</div></div>
+    </div>
+  </div>
+  <div class="activity-footer">
+    <button class="btn-reset-activity">Try Again</button>
+  </div>
+</div>
+
 ## 2.9 Common Pitfalls in Problem Formulation
 
 Even experienced researchers can fall into traps during problem formulation, and awareness of these common pitfalls is the first line of defense against them.
@@ -211,6 +333,68 @@ A closely related pitfall is **defining the problem too broadly**. Statements li
 Conversely, **defining the problem too narrowly** can be equally damaging. If the researcher accepts an overly restricted framing of the problem, the study may miss the real issue entirely. Consider a company that asks its research team to study whether its prices are too high, when the actual problem is that a new competitor is offering a superior product at a comparable price. A study focused exclusively on price sensitivity will not uncover the product quality gap, and the company may respond by cutting prices---a costly strategy that does not address the fundamental competitive challenge. The researcher's role is to question the initial framing, explore the broader context, and ensure that the problem definition is neither so narrow that it excludes the real issue nor so broad that it becomes unmanageable.
 
 Finally, there is the pitfall of **accepting the client's initial framing uncritically**. Decision-makers who commission research often come to the researcher with a preconceived notion of what the problem is and, sometimes, a preferred answer. The client may say, "We need to know whether our advertising is effective," when the real issue is that the product does not meet customer expectations and no amount of advertising will fix it. The researcher's job is not simply to execute the client's initial request but to probe, question, challenge assumptions, and refine the problem definition through dialogue and preliminary investigation. This consultative role requires both technical skill and interpersonal diplomacy---the ability to redirect the investigation toward the right question without alienating the decision-maker. Researchers who simply accept the first formulation they are given risk conducting studies that are technically competent but strategically irrelevant.
+
+<div class="activity-flashcards" data-activity-id="m2-flash-1" data-points="10">
+  <div class="activity-header">
+    <span class="activity-type-badge flashcards">Flashcards</span>
+    <h3>Key Terms from Module 2</h3>
+    <span class="activity-points-badge">+10 XP</span>
+  </div>
+  <div class="activity-body">
+    <div class="flashcard-deck">
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Problem Definition</div>
+          <div class="flashcard-back">The overarching process of defining and developing a decision statement and translating it into precise research terminology. It is iterative and may involve multiple rounds of discussion, background research, and refinement.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Decision Statement</div>
+          <div class="flashcard-back">A written expression of the key question or questions that the research user (typically a manager) wishes to answer. It articulates the decision that hangs in the balance and the uncertainty that research is intended to resolve.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Research Objectives</div>
+          <div class="flashcard-back">Statements, in as precise terminology as possible, of what information is needed to address the decision statement. They translate the manager's question into the researcher's language, specifying the exact information the study must produce.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Null Hypothesis (H0)</div>
+          <div class="flashcard-back">The default assumption in formal hypothesis testing -- typically that there is no effect, no difference, or no relationship between variables. The researcher collects data to determine whether this assumption can be rejected.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Alternative Hypothesis (H1 or Ha)</div>
+          <div class="flashcard-back">The proposition the researcher seeks evidence for in hypothesis testing -- that an effect, difference, or relationship does exist. It represents the conclusion the researcher will draw if the null hypothesis is rejected.</div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Scope Creep</div>
+          <div class="flashcard-back">The tendency for a research project to expand beyond its original mandate, consuming additional time and budget without proportional gains in useful information. Prevented by defining clear research boundaries upfront and adhering to them throughout the project.</div>
+        </div>
+      </div>
+    </div>
+    <p class="flashcard-hint">Click the card to flip it</p>
+    <div class="flashcard-nav">
+      <button class="fc-prev">Previous</button>
+      <span class="fc-counter">1 / 6</span>
+      <button class="fc-next">Next</button>
+      <button class="fc-got-it">Got It!</button>
+    </div>
+    <div class="fc-progress-info">Mastered: <span class="fc-mastered-count">0</span> / 6</div>
+  </div>
+  <div class="activity-footer"></div>
+</div>
+
+<div class="callout callout-key-concept">
+<p class="callout-title">Canvas Submission</p>
+<p>Complete all five interactive activities in this module and submit your Progress Report in Canvas. This week also includes the <strong>Problem Formulation Exercise</strong>: select a real business problem, write a decision statement, two research objectives, and one testable hypothesis. Submit in Canvas Assignments. Post your discussion response in Canvas.</p>
+</div>
 
 ---
 
